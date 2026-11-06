@@ -1,0 +1,8 @@
+{"task_id": 6, "edits": [{"pos": 109, "wrong": " ", "right": " -", "context": " use bit manipulation to find the position of the first difference\n    first_diff =", "flipped": false}], "fixed": false}
+{"task_id": 12, "edits": [{"pos": 10, "wrong": " rows", "right": " #", "context": "```python\ndef sort_matrix(matrix):\n   ", "flipped": false}], "fixed": false}
+{"task_id": 14, "edits": [{"pos": 12, "wrong": " return", "right": " area", "context": "def find_Volume(length, width, height):\n   ", "flipped": false}], "fixed": false}
+{"task_id": 57, "edits": [{"pos": 119, "wrong": "(digits", "right": "(str", "context": " Convert to string and join to form the number\n    return int(\"\".join", "flipped": false}], "fixed": false}
+{"task_id": 61, "edits": [{"pos": 49, "wrong": " if", "right": " sub", "context": " in range(i + 1, len(s) + 1):\n           ", "flipped": false}], "fixed": false}
+{"task_id": 63, "edits": [{"pos": 36, "wrong": " zip", "right": " tup", "context": " 0\n    max_diff = 0\n    for x, y in", "flipped": false}], "fixed": false}
+{"task_id": 69, "edits": [{"pos": 105, "wrong": " if", "right": " for", "context": " list) or not isinstance(sublist, list):\n        return False\n    \n   ", "flipped": false}], "fixed": false}
+{"task_id": 70, "edits": [{"pos": 11, "wrong": " if", "right": " lengths", "context": "```python\ndef get_equal(tuples):\n   ", "flipped": false}], "fixed": false}

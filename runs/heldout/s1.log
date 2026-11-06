@@ -1,0 +1,5 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2436.42it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+base pass 130/377 | agrees with recorded greedy on 363/377 [0s]
+[667s] {'seed': 0, 'cfg': 'rpos', 'scale': 1.0, 'n_edits_tasks': 22, 'dnorm': 1.4814285039901733, 'train_fixed': 11, 'train_broke': 44, 'train_base_fail': 124, 'train_base_pass': 64, 'test_fixed': 9, 'test_broke': 42, 'test_base_fail': 123, 'test_base_pass': 66, 'train_target_fixed': 6}
+[1172s] {'seed': 0, 'cfg': 'noise', 'scale': 1.0, 'n_edits_tasks': 21, 'dnorm': 1.9656968116760254, 'train_fixed': 3, 'train_broke': 4, 'train_base_fail': 124, 'train_base_pass': 64, 'test_fixed': 5, 'test_broke': 2, 'test_base_fail': 123, 'test_base_pass': 66, 'train_target_fixed': 3}

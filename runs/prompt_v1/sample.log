@@ -1,0 +1,56 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2549.57it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[1/377 8s] task 2 greedy=True samples_ok=8/10
+[2/377 18s] task 3 greedy=False samples_ok=3/10
+[3/377 38s] task 4 greedy=False samples_ok=1/10
+[4/377 54s] task 6 greedy=False samples_ok=0/10
+[5/377 59s] task 7 greedy=False samples_ok=0/10
+[6/377 65s] task 8 greedy=True samples_ok=10/10
+[7/377 80s] task 9 greedy=False samples_ok=0/10
+[8/377 88s] task 11 greedy=False samples_ok=0/10
+[9/377 98s] task 12 greedy=False samples_ok=2/10
+[10/377 107s] task 14 greedy=True samples_ok=7/10
+[11/377 130s] task 16 greedy=False samples_ok=0/10
+[12/377 133s] task 17 greedy=True samples_ok=10/10
+[13/377 140s] task 18 greedy=True samples_ok=7/10
+[14/377 159s] task 19 greedy=True samples_ok=4/10
+[15/377 172s] task 20 greedy=False samples_ok=0/10
+[16/377 184s] task 56 greedy=True samples_ok=2/10
+[17/377 208s] task 57 greedy=False samples_ok=1/10
+[18/377 220s] task 58 greedy=True samples_ok=9/10
+[19/377 262s] task 59 greedy=False samples_ok=1/10
+[20/377 302s] task 61 greedy=True samples_ok=2/10
+[21/377 307s] task 62 greedy=True samples_ok=10/10
+[22/377 333s] task 63 greedy=False samples_ok=0/10
+[23/377 347s] task 64 greedy=False samples_ok=1/10
+[24/377 359s] task 65 greedy=True samples_ok=3/10
+[25/377 369s] task 66 greedy=True samples_ok=10/10
+[26/377 423s] task 67 greedy=False samples_ok=0/10
+[27/377 434s] task 68 greedy=False samples_ok=0/10
+[28/377 445s] task 69 greedy=False samples_ok=1/10
+[29/377 453s] task 70 greedy=True samples_ok=3/10
+[30/377 470s] task 71 greedy=True samples_ok=2/10
+[31/377 519s] task 72 greedy=False samples_ok=0/10
+[32/377 548s] task 74 greedy=False samples_ok=0/10
+[33/377 582s] task 75 greedy=True samples_ok=5/10
+[34/377 612s] task 77 greedy=False samples_ok=3/10
+[35/377 631s] task 79 greedy=True samples_ok=10/10
+[36/377 663s] task 80 greedy=False samples_ok=2/10
+[37/377 697s] task 82 greedy=True samples_ok=9/10
+[38/377 734s] task 84 greedy=False samples_ok=0/10
+[39/377 756s] task 85 greedy=False samples_ok=0/10
+[40/377 805s] task 86 greedy=False samples_ok=2/10
+[41/377 834s] task 87 greedy=False samples_ok=2/10
+[42/377 860s] task 88 greedy=True samples_ok=9/10
+[43/377 880s] task 89 greedy=True samples_ok=3/10
+[44/377 891s] task 90 greedy=True samples_ok=8/10
+[45/377 904s] task 91 greedy=True samples_ok=0/10
+[46/377 943s] task 92 greedy=False samples_ok=0/10
+[47/377 953s] task 93 greedy=True samples_ok=7/10
+[48/377 972s] task 94 greedy=True samples_ok=1/10
+[49/377 990s] task 95 greedy=False samples_ok=0/10
+[50/377 1012s] task 96 greedy=True samples_ok=5/10
+[51/377 1036s] task 97 greedy=True samples_ok=8/10
+[52/377 1051s] task 98 greedy=True samples_ok=8/10
+/Volumes/AcasisSSDDrive/tools/python/python/lib/python3.13/multiprocessing/resource_tracker.py:479: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown: {'/mp-vpi93_kx'}
+  warnings.warn(

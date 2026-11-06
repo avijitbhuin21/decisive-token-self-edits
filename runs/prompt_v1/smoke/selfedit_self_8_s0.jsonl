@@ -1,0 +1,8 @@
+{"task_id": 2, "mode": "self", "attempt1_visible": true, "rounds": [], "final_hidden": true}
+{"task_id": 3, "mode": "self", "attempt1_visible": false, "rounds": [{"edits": [{"layer": 16, "neuron": 306, "scale": 2.0}], "parse_ok": true, "changed": false, "visible": false}, {"edits": [{"layer": 19, "neuron": 0, "scale": 2.5}], "parse_ok": true, "changed": true, "visible": false}], "final_hidden": false}
+{"task_id": 4, "mode": "self", "attempt1_visible": true, "rounds": [], "final_hidden": false}
+{"task_id": 6, "mode": "self", "attempt1_visible": false, "rounds": [{"edits": [{"layer": 16, "neuron": 1, "scale": 2.0}], "parse_ok": true, "changed": false, "visible": false}, {"edits": [{"layer": 19, "neuron": 6, "scale": 2.0}], "parse_ok": true, "changed": true, "visible": false}], "final_hidden": false}
+{"task_id": 7, "mode": "self", "attempt1_visible": true, "rounds": [], "final_hidden": false}
+{"task_id": 8, "mode": "self", "attempt1_visible": true, "rounds": [], "final_hidden": true}
+{"task_id": 9, "mode": "self", "attempt1_visible": false, "rounds": [{"edits": [{"layer": 19, "neuron": 0, "scale": 2.0}], "parse_ok": true, "changed": true, "visible": false}, {"edits": [{"layer": 17, "neuron": 1, "scale": 2.0}], "parse_ok": true, "changed": true, "visible": false}], "final_hidden": false}
+{"task_id": 11, "mode": "self", "attempt1_visible": false, "rounds": [{"edits": [{"layer": 16, "neuron": 10, "scale": 2.0}], "parse_ok": true, "changed": true, "visible": false}, {"edits": [{"layer": 19, "neuron": 1, "scale": 3.0}], "parse_ok": true, "changed": false, "visible": false}], "final_hidden": false}

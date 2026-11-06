@@ -1,0 +1,7 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2713.00it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+base pass 130/377 | agrees with recorded greedy on 363/377 [0s]
+[382s] {'seed': 1, 'cfg': 'decisive', 'scale': 0.25, 'n_edits_tasks': 26, 'dnorm': 0.3838125467300415, 'train_fixed': 16, 'train_broke': 9, 'train_base_fail': 116, 'train_base_pass': 72, 'test_fixed': 14, 'test_broke': 7, 'test_base_fail': 131, 'test_base_pass': 58, 'train_target_fixed': 10}
+[693s] {'seed': 1, 'cfg': 'rpos', 'scale': 0.25, 'n_edits_tasks': 21, 'dnorm': 0.34790322184562683, 'train_fixed': 12, 'train_broke': 11, 'train_base_fail': 116, 'train_base_pass': 72, 'test_fixed': 15, 'test_broke': 14, 'test_base_fail': 131, 'test_base_pass': 58, 'train_target_fixed': 7}
+[1335s] {'seed': 2, 'cfg': 'decisive', 'scale': 0.25, 'n_edits_tasks': 26, 'dnorm': 0.4452492296695709, 'train_fixed': 17, 'train_broke': 22, 'train_base_fail': 126, 'train_base_pass': 62, 'test_fixed': 22, 'test_broke': 25, 'test_base_fail': 121, 'test_base_pass': 68, 'train_target_fixed': 11}
+[1675s] {'seed': 2, 'cfg': 'rpos', 'scale': 0.25, 'n_edits_tasks': 25, 'dnorm': 0.40501248836517334, 'train_fixed': 16, 'train_broke': 16, 'train_base_fail': 126, 'train_base_pass': 62, 'test_fixed': 20, 'test_broke': 15, 'test_base_fail': 121, 'test_base_pass': 68, 'train_target_fixed': 11}

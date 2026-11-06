@@ -1,0 +1,93 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2415.38it/s]
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[1/91 17s] task 6 edits=3 fixed=False last=' positions\n    # We can use bit manipulation to find the position of the first'[' differing'->' difference'] | fixed=0/1
+[2/91 64s] task 12 edits=3 fixed=False last='```python\ndef sort_matrix(matrix):\n    #'[' #'->' Sort'] | fixed=0/2
+[3/91 98s] task 14 edits=3 fixed=False last='def find_Volume(length, width, height):\n    area ='[' '->' ('] | fixed=0/3
+[4/91 103s] task 57 edits=3 fixed=False last=' Convert to string and join to form the number\n    return int("".join'['(digits'->'(str'] | fixed=0/4
+[5/91 136s] task 61 edits=3 fixed=False last=' 1):\n            sub = s[i:j]\n            # Check if'[' sum'->' length'] | fixed=0/5
+[6/91 140s] task 63 edits=3 fixed=True last=' 0\n    max_diff = 0\n    for x, y in'[' zip'->' tup'] | fixed=1/6
+[7/91 143s] task 69 edits=3 fixed=False last=' True if sublist is found in lst, False otherwise.\n    """\n   '[' return'->' if'] | fixed=1/7
+[8/91 146s] task 70 edits=3 fixed=True last='```python\ndef get_equal'['(tuple'->'(t'] | fixed=2/8
+[9/91 148s] task 82 edits=3 fixed=True last='```python\nimport math\n\ndef volume_sphere(radius):\n    """'['\n'->'Calculate'] | fixed=3/9
+[10/91 150s] task 89 edits=3 fixed=False last='```python\ndef closest_num(n):\n    if n < '['0'->'1'] | fixed=3/10
+[11/91 183s] task 96 edits=3 fixed=False last=' + 1):\n        if n % i == 0:\n           '[' count'->' if'] | fixed=3/11
+[12/91 202s] task 97 edits=3 fixed=False last='```python\ndef frequency_lists'['(lst'->'(fl'] | fixed=3/12
+[13/91 214s] task 108 edits=3 fixed=True last='        merged.append(list3[k])\n        k += 1\n    return'[' merged'->' sorted'] | fixed=4/13
+[14/91 222s] task 111 edits=3 fixed=False last=' find common elements\n        common_elements = inner_set.intersection(*nested_lists)\n'['        \n'->'       '] | fixed=4/14
+[15/91 223s] task 135 edits=1 fixed=True last=' the n-th hexagonal number.\n\n    A hexagonal number is defined as'[' the'->' H'] | fixed=5/15
+[16/91 227s] task 140 edits=3 fixed=False last='        lst: List of lists of integers\n        \n    Returns:\n        Set of'[' all'->' flattened'] | fixed=5/16
+[17/91 228s] task 145 edits=1 fixed=True last='```python\ndef max_Abs_Diff(nums):\n   '[' if'->' n'] | fixed=6/17
+[18/91 231s] task 162 edits=2 fixed=True last='\n    total = 0\n    i = 0\n    while i'[' <'->' <='] | fixed=7/18
+[19/91 235s] task 166 edits=3 fixed=True last='```python\ndef find_even_pair'['(nums'->'(lst'] | fixed=8/19
+[20/91 238s] task 170 edits=3 fixed=False last=' and end (inclusive),\n    where the range is specified by two indices ('['inclusive'->'start'] | fixed=8/20
+[21/91 242s] task 222 edits=3 fixed=True last=' len(tuple_data) == 0:\n        return False\n    types ='[' set'->' ['] | fixed=9/21
+[22/91 244s] task 223 edits=2 fixed=True last='```python\ndef is_majority(arr, n,'[' x'->' target'] | fixed=10/22
+[23/91 246s] task 232 edits=1 fixed=True last='```python\ndef larg_nnum(lst, n):\n    lst'[' ='->'.sort'] | fixed=11/23
+[24/91 250s] task 237 edits=3 fixed=True last='```python\ndef check_occurences'['(lst'->'(t'] | fixed=12/24
+[25/91 258s] task 238 edits=3 fixed=False last=' number_of_substrings(s: str) -> int:\n    """Return the'[' count'->' number'] | fixed=12/25
+[26/91 259s] task 240 edits=1 fixed=True last='1, lst2):\n    return lst1[:-1] + lst2'[' +'->'\n'] | fixed=13/26
+[27/91 261s] task 250 edits=2 fixed=True last='def count_X(tuple_element,'[' count'->' element'] | fixed=14/27
+[28/91 268s] task 255 edits=2 fixed=True last=' where each tuple represents one combination\n    """\n    result = []\n   '[' n'->' from'] | fixed=15/28
+[29/91 315s] task 256 edits=3 fixed=False last=' i == 0:\n                return False\n        return True\n\n    def'[' def'->' count'] | fixed=15/29
+[30/91 320s] task 261 edits=3 fixed=True last=' operation element-wise across two tuples.\n    \n    Args:\n        t1'[':'->' ('] | fixed=16/30
+[31/91 321s] task 262 edits=1 fixed=True last='```python\ndef split_two_parts(lst, L):\n    return'[' ['->' ('] | fixed=17/31
+[32/91 323s] task 272 edits=3 fixed=False last='    result = []\n    for t in tuples:\n        result.append(t'['['->'[-'] | fixed=17/32
+[33/91 345s] task 274 edits=3 fixed=True last=' int) -> int:\n    """\n    Returns the sum of even-index'['ed'->' bin'] | fixed=18/33
+[34/91 348s] task 287 edits=2 fixed=True last='```python\ndef square_Sum(n: int) -> int:\n   '[' """'->' total'] | fixed=19/34
+[35/91 364s] task 308 edits=3 fixed=False last='54, 50]\n    """\n    # Generate all possible'[' combinations'->' products'] | fixed=19/35
+[36/91 378s] task 388 edits=3 fixed=False last=' or equal to n.\n    \n    Args:\n        n (int):'[' The'->' A'] | fixed=19/36
+[37/91 424s] task 397 edits=3 fixed=False last=' middle = sorted_numbers[1]\n        return middle\n    return 0'['.'->'\n'] | fixed=19/37
+[38/91 426s] task 405 edits=2 fixed=True last='def check_tuplex(tup, elem):\n   '[' return'->' for'] | fixed=20/38
+[39/91 427s] task 419 edits=2 fixed=True last='```python\ndef round_and_sum(numbers):\n    return sum'['(n'->'(round'] | fixed=21/39
+[40/91 431s] task 420 edits=3 fixed=False last='```python\ndef cube_Sum(n):\n   '[' total'->' """'] | fixed=21/40
+[41/91 432s] task 424 edits=1 fixed=True last='ar(s: tuple) -> list:\n    result = []\n    for'[' s'->' item'] | fixed=22/41
+[42/91 447s] task 428 edits=3 fixed=True last=') == 1:\n        return [arr[0]]\n    \n   '[' for'->' n'] | fixed=23/42
+[43/91 450s] task 433 edits=3 fixed=True last='\n    return num > max(arr) if len(arr) > 0 else'[' False'->' True'] | fixed=24/43
+[44/91 454s] task 441 edits=3 fixed=False last='```python\ndef surface'['_area'->'area'] | fixed=24/44
+[45/91 461s] task 445 edits=3 fixed=True last='lication(tup1, tup2):\n    result = []\n    for'[' i'->' t'] | fixed=25/45
+[46/91 465s] task 446 edits=3 fixed=False last='\ndef count_Occurrence(list1, list2):\n    result ='[' set'->' '] | fixed=25/46
+[47/91 469s] task 453 edits=3 fixed=False last='python\ndef sumofFactors(n: int) -> int:\n    """'['\n'->'Return'] | fixed=25/47
+[48/91 471s] task 457 edits=1 fixed=True last='list):\n    """\n    Find the sublist with the minimum length.\n'['    \n'->'   '] | fixed=26/48
+[49/91 472s] task 460 edits=1 fixed=True last='```python\ndef'[' extract'->' Extract'] | fixed=27/49
+[50/91 473s] task 470 edits=1 fixed=True last='        result.append(nums[i] + nums[i + 1])\n    return'[' result'->' tuple'] | fixed=28/50
+[51/91 478s] task 472 edits=3 fixed=False last='secutive(nums):\n    if len(nums) < 2:\n        return'[' False'->' True'] | fixed=28/51
+[52/91 487s] task 555 edits=3 fixed=False last=' 0:\n        return 0\n\n    sum_cubes = sum(i'[' **'->'**'] | fixed=28/52
+[53/91 489s] task 557 edits=3 fixed=False last="```python\ndef toggle_string(s):\n    return ''.join(char.lower()"[' for'->' if'] | fixed=28/53
+[54/91 495s] task 559 edits=3 fixed=False last=': Sum of the largest contiguous sublist.\n    """\n    if not arr'[':'->' or'] | fixed=28/54
+[55/91 497s] task 560 edits=3 fixed=False last=' t2):\n    """\n    Returns a sorted tuple containing all elements from'[' both'->' the'] | fixed=28/55
+[56/91 498s] task 565 edits=1 fixed=True last='```python\ndef split(s: str) -> list:\n    return'[' s'->' list'] | fixed=29/56
+[57/91 499s] task 568 edits=2 fixed=True last='```python\ndef empty_list(n):\n    return'[' [{'->' ['] | fixed=30/57
+[58/91 501s] task 573 edits=1 fixed=True last='    result = 1\n    \n    for num in nums:\n        if num'[' in'->' not'] | fixed=31/58
+[59/91 509s] task 578 edits=3 fixed=True last=') and len(list1) > len(list3):\n            break\n    \n       '[' if'->' result'] | fixed=32/59
+[60/91 511s] task 585 edits=1 fixed=True last='```python\ndef expensive_items(items, n):\n    """\n   '[' Find'->' Returns'] | fixed=33/60
+[61/91 512s] task 587 edits=1 fixed=True last='def list'['_to'->'_tuple'] | fixed=34/61
+[62/91 513s] task 591 edits=1 fixed=True last='def swap_List(lst):\n   '[' return'->' #'] | fixed=35/62
+[63/91 514s] task 594 edits=1 fixed=True last='```python\ndef diff_even_odd(arr):\n   '[' even'->' ev'] | fixed=36/63
+[64/91 517s] task 596 edits=3 fixed=False last='    """\n    Calculate the size in bytes of a tuple.\n    \n   '[' Parameters'->' Args'] | fixed=36/64
+[65/91 528s] task 599 edits=1 fixed=True last='    total = n * (n + 1) // 2\n   '[' return'->' avg'] | fixed=37/65
+[66/91 546s] task 602 edits=3 fixed=False last='    seen = set()\n    for i in range(len(s)):\n       '[' if'->' char'] | fixed=37/66
+[67/91 548s] task 606 edits=1 fixed=True last='\ndef radian_degree(degrees):\n    """Convert degrees to radians using'[' the'->' pi'] | fixed=38/67
+[68/91 550s] task 610 edits=2 fixed=True last='```python\ndef remove_kth_element(lst, k):\n    if'[' k'->' len'] | fixed=39/68
+[69/91 554s] task 614 edits=3 fixed=False last='```python\ndef cummulative_sum(tup):\n   '[' total'->' """'] | fixed=39/69
+[70/91 557s] task 616 edits=3 fixed=False last=' for x, y in zip(a_list, b_list)]\n    \n    return'[' result'->' tuple'] | fixed=39/70
+[71/91 565s] task 635 edits=3 fixed=False last='\n    n = len(lst)\n    if n % 2 == '['1'->'0'] | fixed=39/71
+[72/91 566s] task 637 edits=1 fixed=True last='\ndef noprofit_noloss(amount1, amount2):\n   '[' if'->' """'] | fixed=40/72
+[73/91 572s] task 644 edits=3 fixed=False last=' first_k = arr[:k]\n    \n    # Reverse the first k elements'['\n'->' and'] | fixed=40/73
+[74/91 579s] task 726 edits=3 fixed=False last=' accessing an element at index 0 is a one-argument function call, so'[' t'->'\n'] | fixed=40/74
+[75/91 592s] task 733 edits=3 fixed=False last=' of the first occurrence of the target in arr, or -1 if not found'['\n'->'\n    \n'] | fixed=40/75
+[76/91 610s] task 734 edits=3 fixed=False last=' in range(n):\n        for j in range(i, n):\n           '[' prod'->' #'] | fixed=40/76
+[77/91 613s] task 736 edits=1 fixed=True last=' list of integers sorted in ascending order.\n    value (int): An integer'[' to'->' value'] | fixed=41/77
+[78/91 614s] task 740 edits=1 fixed=True last=' tuple_to_dict(tuple):\n    result = {}\n    for i in range'['(len'->'('] | fixed=42/78
+[79/91 615s] task 741 edits=1 fixed=True last='def all_Characters_Same(s: str) -> bool:\n    return'[' s'->' all'] | fixed=43/79
+[80/91 635s] task 743 edits=3 fixed=False last='```python\ndef rotate_right(lst, n):\n    """\n   '[' Rotate'->' Rot'] | fixed=43/80
+[81/91 641s] task 749 edits=3 fixed=False last=' str): List of strings representing numeric values\n    \n    Returns:\n    list of'[' int'->' str'] | fixed=43/81
+[82/91 644s] task 753 edits=2 fixed=True last='def min_k(tuple_list, k):\n    """\n   '[' Find'->' Finds'] | fixed=44/82
+[83/91 648s] task 757 edits=3 fixed=False last='```python\ndef count_reverse_pairs'['(strings'->'(st'] | fixed=44/83
+[84/91 649s] task 760 edits=1 fixed=True last='```python\ndef unique_Element(nums):\n    """'['\n'->'Check'] | fixed=45/84
+[85/91 654s] task 767 edits=3 fixed=True last='\n        current_sum = nums[i]\n        \n        # Add remaining elements to'[' the'->' form'] | fixed=46/85
+[86/91 659s] task 782 edits=3 fixed=False last=' - i + 1\n            if length % 2 == 1:'['\n'->' '] | fixed=46/86
+[87/91 663s] task 784 edits=3 fixed=False last='_odd(nums):\n    """\n    Calculate the product of the first even and'[' first'->' odd'] | fixed=46/87
+[88/91 665s] task 788 edits=3 fixed=False last=' not a string.\n    """\n    if not isinstance(s_list, list'['):'->')'] | fixed=46/88
+[89/91 669s] task 791 edits=3 fixed=True last='```python\ndef remove_nested(tup: tuple) -> tuple:\n   '[' """'->' return'] | fixed=47/89
+[90/91 688s] task 799 edits=3 fixed=False last=' shift = (total_bits // 2) - shift\n    \n    # Perform rotation'['\n'->':'] | fixed=47/90
+[91/91 691s] task 808 edits=3 fixed=False last=' tuples (tuple): A tuple containing N elements\n    k (int): The'[' number'->' target'] | fixed=47/91

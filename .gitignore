@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+paper/*.aux
+paper/*.out
+paper/*.log
+paper/*.bbl
+paper/arxiv-submission.tar.gz
+paper/arxiv-metadata.txt
+.DS_Store
