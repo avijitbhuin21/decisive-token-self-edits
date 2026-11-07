@@ -1,0 +1,120 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2774.74it/s]
+[decisive 1/43 5s] kth_smallest 200 edits=1 fixed=False
+[decisive 2/43 126s] kth_smallest 201 edits=3 fixed=True
+[decisive 3/43 133s] kth_smallest 205 edits=1 fixed=False
+[decisive 4/43 163s] kth_smallest 208 edits=1 fixed=True
+[decisive 5/43 186s] kth_smallest 211 edits=2 fixed=False
+[decisive 6/43 341s] kth_smallest 212 edits=3 fixed=False
+[decisive 7/43 354s] caesar 700 edits=1 fixed=True
+[decisive 8/43 380s] caesar 701 edits=2 fixed=False
+[decisive 9/43 392s] caesar 702 edits=1 fixed=False
+[decisive 10/43 421s] caesar 703 edits=2 fixed=False
+[decisive 11/43 434s] caesar 704 edits=1 fixed=True
+[decisive 12/43 475s] caesar 705 edits=3 fixed=False
+[decisive 13/43 484s] caesar 706 edits=1 fixed=True
+[decisive 14/43 494s] caesar 707 edits=1 fixed=True
+[decisive 15/43 515s] caesar 708 edits=2 fixed=True
+[decisive 16/43 542s] caesar 709 edits=3 fixed=False
+[decisive 17/43 554s] caesar 710 edits=1 fixed=True
+[decisive 18/43 567s] caesar 711 edits=1 fixed=True
+[decisive 19/43 579s] caesar 712 edits=1 fixed=True
+[decisive 20/43 593s] caesar 713 edits=1 fixed=True
+[decisive 21/43 606s] caesar 714 edits=1 fixed=True
+[decisive 22/43 617s] chunk_sums 500 edits=1 fixed=True
+[decisive 23/43 631s] chunk_sums 501 edits=1 fixed=True
+[decisive 24/43 643s] chunk_sums 502 edits=1 fixed=True
+[decisive 25/43 672s] chunk_sums 503 edits=2 fixed=True
+[decisive 26/43 803s] chunk_sums 504 edits=2 fixed=False
+[decisive 27/43 817s] chunk_sums 506 edits=1 fixed=True
+[decisive 28/43 831s] chunk_sums 507 edits=1 fixed=True
+[decisive 29/43 844s] chunk_sums 509 edits=1 fixed=True
+[decisive 30/43 860s] chunk_sums 510 edits=1 fixed=True
+[decisive 31/43 896s] chunk_sums 511 edits=2 fixed=True
+[decisive 32/43 931s] chunk_sums 512 edits=3 fixed=False
+[decisive 33/43 939s] bits_k 2800 edits=1 fixed=True
+[decisive 34/43 959s] bits_k 2801 edits=2 fixed=True
+[decisive 35/43 968s] bits_k 2802 edits=1 fixed=True
+[decisive 36/43 977s] bits_k 2803 edits=1 fixed=True
+[decisive 37/43 985s] bits_k 2804 edits=1 fixed=True
+[decisive 38/43 995s] bits_k 2806 edits=1 fixed=True
+[decisive 39/43 1003s] bits_k 2807 edits=1 fixed=True
+[decisive 40/43 1011s] bits_k 2808 edits=1 fixed=True
+[decisive 41/43 1031s] bits_k 2809 edits=1 fixed=True
+[decisive 42/43 1040s] bits_k 2810 edits=1 fixed=True
+[decisive 43/43 1048s] bits_k 2811 edits=1 fixed=True
+[rpos 1/43 9s] kth_smallest 200 edits=2 fixed=True
+[rpos 2/43 67s] kth_smallest 201 edits=3 fixed=False
+[rpos 3/43 123s] kth_smallest 205 edits=3 fixed=False
+[rpos 4/43 126s] kth_smallest 208 edits=1 fixed=True
+[rpos 5/43 137s] kth_smallest 211 edits=3 fixed=False
+[rpos 6/43 139s] kth_smallest 212 edits=1 fixed=True
+[rpos 7/43 147s] caesar 700 edits=3 fixed=True
+[rpos 8/43 153s] caesar 701 edits=2 fixed=True
+[rpos 9/43 157s] caesar 702 edits=1 fixed=True
+[rpos 10/43 167s] caesar 703 edits=3 fixed=True
+[rpos 11/43 176s] caesar 704 edits=3 fixed=True
+[rpos 12/43 183s] caesar 705 edits=3 fixed=False
+[rpos 13/43 186s] caesar 706 edits=1 fixed=True
+[rpos 14/43 190s] caesar 707 edits=1 fixed=True
+[rpos 15/43 196s] caesar 708 edits=3 fixed=True
+[rpos 16/43 204s] caesar 709 edits=3 fixed=False
+[rpos 17/43 210s] caesar 710 edits=2 fixed=True
+[rpos 18/43 214s] caesar 711 edits=1 fixed=True
+[rpos 19/43 221s] caesar 712 edits=3 fixed=False
+[rpos 20/43 224s] caesar 713 edits=1 fixed=True
+[rpos 21/43 227s] caesar 714 edits=1 fixed=True
+[rpos 22/43 230s] chunk_sums 500 edits=1 fixed=True
+[rpos 23/43 232s] chunk_sums 501 edits=1 fixed=True
+[rpos 24/43 234s] chunk_sums 502 edits=1 fixed=True
+[rpos 25/43 242s] chunk_sums 503 edits=3 fixed=True
+[rpos 26/43 279s] chunk_sums 504 edits=3 fixed=True
+[rpos 27/43 281s] chunk_sums 506 edits=1 fixed=True
+[rpos 28/43 283s] chunk_sums 507 edits=1 fixed=True
+[rpos 29/43 286s] chunk_sums 509 edits=1 fixed=True
+[rpos 30/43 291s] chunk_sums 510 edits=2 fixed=True
+[rpos 31/43 355s] chunk_sums 511 edits=3 fixed=False
+[rpos 32/43 360s] chunk_sums 512 edits=2 fixed=True
+[rpos 33/43 364s] bits_k 2800 edits=2 fixed=True
+[rpos 34/43 369s] bits_k 2801 edits=3 fixed=False
+[rpos 35/43 398s] bits_k 2802 edits=2 fixed=True
+[rpos 36/43 430s] bits_k 2803 edits=3 fixed=True
+[rpos 37/43 432s] bits_k 2804 edits=1 fixed=True
+[rpos 38/43 434s] bits_k 2806 edits=1 fixed=True
+[rpos 39/43 438s] bits_k 2807 edits=2 fixed=True
+[rpos 40/43 440s] bits_k 2808 edits=1 fixed=True
+[rpos 41/43 442s] bits_k 2809 edits=1 fixed=True
+[rpos 42/43 446s] bits_k 2810 edits=2 fixed=True
+[rpos 43/43 448s] bits_k 2811 edits=1 fixed=True
+base eval done [167s]
+[187s] s0 bits_k           decisive x1.0 used=4 test greedy 0->7/7 rate 0.36->0.57 | edit greedy 1->5
+[205s] s0 bits_k           decisive x0.5 used=4 test greedy 0->7/7 rate 0.36->0.79 | edit greedy 1->5
+[265s] s0 bits_k           rpos     x1.0 used=4 test greedy 0->6/7 rate 0.36->0.50 | edit greedy 1->5
+[301s] s0 bits_k           rpos     x0.5 used=4 test greedy 0->7/7 rate 0.36->0.68 | edit greedy 1->5
+[342s] s0 bits_k           noise    x1.0 used=4 test greedy 0->0/7 rate 0.36->0.36 | edit greedy 1->0
+[364s] s0 bits_k           noise    x0.5 used=4 test greedy 0->0/7 rate 0.36->0.32 | edit greedy 1->0
+[437s] s0 bits_k           cross    x1.0 used=3 test greedy 0->0/7 rate 0.36->0.21 | edit greedy 1->1
+[495s] s0 bits_k           cross    x0.5 used=3 test greedy 0->0/7 rate 0.36->0.14 | edit greedy 1->0
+[522s] s0 caesar           decisive x1.0 used=3 test greedy 0->2/10 rate 0.20->0.25 | edit greedy 0->1
+[551s] s0 caesar           decisive x0.5 used=3 test greedy 0->0/10 rate 0.20->0.38 | edit greedy 0->0
+[599s] s0 caesar           rpos     x1.0 used=4 test greedy 0->0/10 rate 0.20->0.03 | edit greedy 0->0
+[622s] s0 caesar           rpos     x0.5 used=4 test greedy 0->10/10 rate 0.20->0.40 | edit greedy 0->5
+[646s] s0 caesar           noise    x1.0 used=3 test greedy 0->0/10 rate 0.20->0.10 | edit greedy 0->0
+[687s] s0 caesar           noise    x0.5 used=3 test greedy 0->0/10 rate 0.20->0.23 | edit greedy 0->0
+[705s] s0 caesar           cross    x1.0 used=4 test greedy 0->0/10 rate 0.20->0.00 | edit greedy 0->0
+[724s] s0 caesar           cross    x0.5 used=4 test greedy 0->0/10 rate 0.20->0.10 | edit greedy 0->0
+[744s] s0 chunk_sums       decisive x1.0 used=4 test greedy 1->8/8 rate 0.44->0.94 | edit greedy 1->5
+[773s] s0 chunk_sums       decisive x0.5 used=4 test greedy 1->8/8 rate 0.44->0.84 | edit greedy 1->5
+[802s] s0 chunk_sums       rpos     x1.0 used=4 test greedy 1->8/8 rate 0.44->0.84 | edit greedy 1->5
+[829s] s0 chunk_sums       rpos     x0.5 used=4 test greedy 1->8/8 rate 0.44->0.88 | edit greedy 1->5
+[854s] s0 chunk_sums       noise    x1.0 used=4 test greedy 1->1/8 rate 0.44->0.38 | edit greedy 1->1
+[888s] s0 chunk_sums       noise    x0.5 used=4 test greedy 1->1/8 rate 0.44->0.50 | edit greedy 1->1
+[911s] s0 chunk_sums       cross    x1.0 used=1 test greedy 1->1/8 rate 0.44->0.34 | edit greedy 1->1
+[942s] s0 chunk_sums       cross    x0.5 used=1 test greedy 1->1/8 rate 0.44->0.41 | edit greedy 1->0
+[1002s] s0 kth_smallest     decisive x1.0 used=1 test greedy 2->2/10 rate 0.25->0.17 | edit greedy 2->4
+[1085s] s0 kth_smallest     decisive x0.5 used=1 test greedy 2->3/10 rate 0.25->0.25 | edit greedy 2->2
+[1146s] s0 kth_smallest     rpos     x1.0 used=1 test greedy 2->2/10 rate 0.25->0.17 | edit greedy 2->4
+[1231s] s0 kth_smallest     rpos     x0.5 used=1 test greedy 2->3/10 rate 0.25->0.25 | edit greedy 2->2
+[1305s] s0 kth_smallest     noise    x1.0 used=1 test greedy 2->2/10 rate 0.25->0.25 | edit greedy 2->1
+[1354s] s0 kth_smallest     noise    x0.5 used=1 test greedy 2->1/10 rate 0.25->0.25 | edit greedy 2->2
+[1399s] s0 kth_smallest     cross    x1.0 used=4 test greedy 2->2/10 rate 0.25->0.17 | edit greedy 2->2
+[1435s] s0 kth_smallest     cross    x0.5 used=4 test greedy 2->3/10 rate 0.25->0.20 | edit greedy 2->2

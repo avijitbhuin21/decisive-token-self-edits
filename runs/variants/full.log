@@ -1,0 +1,464 @@
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2889.44it/s]
+[decisive 1/80 10s] rotate_left 302 edits=2 fixed=True
+[decisive 2/80 18s] rotate_left 303 edits=1 fixed=False
+[decisive 3/80 28s] rotate_left 304 edits=3 fixed=True
+[decisive 4/80 38s] rotate_left 309 edits=1 fixed=False
+[decisive 5/80 61s] rotate_left 310 edits=3 fixed=True
+[decisive 6/80 86s] every_kth 403 edits=3 fixed=False
+[decisive 7/80 112s] every_kth 405 edits=3 fixed=False
+[decisive 8/80 121s] every_kth 407 edits=1 fixed=False
+[decisive 9/80 127s] digit_sum_base 1100 edits=1 fixed=True
+[decisive 10/80 132s] digit_sum_base 1101 edits=1 fixed=True
+[decisive 11/80 137s] digit_sum_base 1102 edits=1 fixed=True
+[decisive 12/80 142s] digit_sum_base 1103 edits=1 fixed=True
+[decisive 13/80 147s] digit_sum_base 1104 edits=1 fixed=True
+[decisive 14/80 153s] digit_sum_base 1105 edits=1 fixed=False
+[decisive 15/80 303s] digit_sum_base 1106 edits=3 fixed=True
+[decisive 16/80 308s] digit_sum_base 1107 edits=1 fixed=True
+[decisive 17/80 319s] to_base 1203 edits=1 fixed=False
+[decisive 18/80 327s] to_base 1206 edits=1 fixed=True
+[decisive 19/80 333s] to_base 1207 edits=1 fixed=False
+[decisive 20/80 349s] replace_kth 1302 edits=3 fixed=False
+[decisive 21/80 361s] replace_kth 1303 edits=2 fixed=True
+[decisive 22/80 367s] replace_kth 1306 edits=1 fixed=False
+[decisive 23/80 374s] replace_kth 1308 edits=1 fixed=True
+[decisive 24/80 387s] replace_kth 1311 edits=2 fixed=True
+[decisive 25/80 389s] replace_kth 1312 edits=1 fixed=False
+[decisive 26/80 397s] clamp 1400 edits=1 fixed=True
+[decisive 27/80 405s] clamp 1403 edits=1 fixed=True
+[decisive 28/80 414s] clamp 1404 edits=1 fixed=True
+[decisive 29/80 421s] clamp 1405 edits=1 fixed=True
+[decisive 30/80 429s] clamp 1406 edits=1 fixed=True
+[decisive 31/80 437s] clamp 1410 edits=1 fixed=True
+[decisive 32/80 444s] clamp 1412 edits=1 fixed=True
+[decisive 33/80 452s] clamp 1414 edits=1 fixed=True
+[decisive 34/80 453s] sum_last_digits 1900 edits=1 fixed=False
+[decisive 35/80 470s] sum_last_digits 1901 edits=1 fixed=True
+[decisive 36/80 479s] sum_last_digits 1903 edits=1 fixed=True
+[decisive 37/80 480s] sum_last_digits 1904 edits=1 fixed=False
+[decisive 38/80 524s] sum_last_digits 1905 edits=1 fixed=True
+[decisive 39/80 536s] sum_last_digits 1906 edits=1 fixed=True
+[decisive 40/80 538s] sum_last_digits 1908 edits=1 fixed=False
+[decisive 41/80 548s] sum_last_digits 1910 edits=1 fixed=True
+[decisive 42/80 557s] sum_last_digits 1912 edits=1 fixed=True
+[decisive 43/80 580s] sum_last_digits 1914 edits=3 fixed=False
+[decisive 44/80 590s] keep_at_most 2202 edits=1 fixed=False
+[decisive 45/80 646s] keep_at_most 2205 edits=3 fixed=False
+[decisive 46/80 680s] keep_at_most 2209 edits=3 fixed=True
+[decisive 47/80 699s] keep_at_most 2214 edits=2 fixed=True
+[decisive 48/80 741s] round_to 2600 edits=3 fixed=False
+[decisive 49/80 764s] round_to 2610 edits=3 fixed=False
+[decisive 50/80 772s] round_to 2612 edits=1 fixed=True
+[decisive 51/80 779s] vowel_replace 2700 edits=1 fixed=True
+[decisive 52/80 786s] vowel_replace 2701 edits=1 fixed=True
+[decisive 53/80 791s] vowel_replace 2702 edits=1 fixed=True
+[decisive 54/80 804s] vowel_replace 2703 edits=2 fixed=True
+[decisive 55/80 809s] vowel_replace 2705 edits=1 fixed=True
+[decisive 56/80 818s] vowel_replace 2706 edits=1 fixed=True
+[decisive 57/80 824s] vowel_replace 2707 edits=1 fixed=True
+[decisive 58/80 832s] vowel_replace 2708 edits=1 fixed=True
+[decisive 59/80 839s] vowel_replace 2709 edits=1 fixed=True
+[decisive 60/80 846s] vowel_replace 2710 edits=1 fixed=True
+[decisive 61/80 882s] move_to_end 2901 edits=3 fixed=False
+[decisive 62/80 904s] move_to_end 2902 edits=3 fixed=False
+[decisive 63/80 958s] move_to_end 2903 edits=3 fixed=True
+[decisive 64/80 1028s] move_to_end 2906 edits=2 fixed=False
+[decisive 65/80 1070s] move_to_end 2907 edits=3 fixed=False
+[decisive 66/80 1221s] move_to_end 2910 edits=3 fixed=False
+[decisive 67/80 1252s] move_to_end 2912 edits=3 fixed=False
+[decisive 68/80 1286s] move_to_end 2913 edits=3 fixed=False
+[decisive 69/80 1411s] move_to_end 2914 edits=3 fixed=False
+[decisive 70/80 1525s] coprime_k 3000 edits=2 fixed=False
+[decisive 71/80 1526s] coprime_k 3003 edits=1 fixed=False
+[decisive 72/80 1531s] coprime_k 3004 edits=1 fixed=False
+[decisive 73/80 1536s] coprime_k 3005 edits=1 fixed=True
+[decisive 74/80 1547s] coprime_k 3006 edits=1 fixed=True
+[decisive 75/80 1551s] coprime_k 3007 edits=1 fixed=False
+[decisive 76/80 1562s] coprime_k 3009 edits=1 fixed=True
+[decisive 77/80 1572s] coprime_k 3011 edits=1 fixed=True
+[decisive 78/80 1583s] coprime_k 3012 edits=1 fixed=True
+[decisive 79/80 1607s] coprime_k 3013 edits=2 fixed=True
+[decisive 80/80 1618s] coprime_k 3014 edits=1 fixed=True
+[rpos 1/80 3s] rotate_left 302 edits=2 fixed=True
+[rpos 2/80 6s] rotate_left 303 edits=2 fixed=True
+[rpos 3/80 9s] rotate_left 304 edits=3 fixed=True
+[rpos 4/80 75s] rotate_left 309 edits=3 fixed=False
+[rpos 5/80 79s] rotate_left 310 edits=3 fixed=False
+[rpos 6/80 81s] every_kth 403 edits=1 fixed=True
+[rpos 7/80 86s] every_kth 405 edits=3 fixed=True
+[rpos 8/80 107s] every_kth 407 edits=3 fixed=False
+[rpos 9/80 130s] digit_sum_base 1100 edits=3 fixed=True
+[rpos 10/80 132s] digit_sum_base 1101 edits=1 fixed=True
+[rpos 11/80 133s] digit_sum_base 1102 edits=1 fixed=True
+[rpos 12/80 134s] digit_sum_base 1103 edits=1 fixed=True
+[rpos 13/80 137s] digit_sum_base 1104 edits=2 fixed=True
+[rpos 14/80 138s] digit_sum_base 1105 edits=1 fixed=True
+[rpos 15/80 166s] digit_sum_base 1106 edits=3 fixed=True
+[rpos 16/80 167s] digit_sum_base 1107 edits=1 fixed=True
+[rpos 17/80 251s] to_base 1203 edits=3 fixed=False
+[rpos 18/80 261s] to_base 1206 edits=3 fixed=False
+[rpos 19/80 291s] to_base 1207 edits=2 fixed=True
+[rpos 20/80 294s] replace_kth 1302 edits=3 fixed=False
+[rpos 21/80 297s] replace_kth 1303 edits=3 fixed=False
+[rpos 22/80 300s] replace_kth 1306 edits=2 fixed=True
+[rpos 23/80 304s] replace_kth 1308 edits=2 fixed=True
+[rpos 24/80 307s] replace_kth 1311 edits=3 fixed=True
+[rpos 25/80 310s] replace_kth 1312 edits=3 fixed=False
+[rpos 26/80 313s] clamp 1400 edits=1 fixed=True
+[rpos 27/80 317s] clamp 1403 edits=2 fixed=True
+[rpos 28/80 327s] clamp 1404 edits=3 fixed=True
+[rpos 29/80 329s] clamp 1405 edits=1 fixed=True
+[rpos 30/80 334s] clamp 1406 edits=2 fixed=True
+[rpos 31/80 336s] clamp 1410 edits=1 fixed=True
+[rpos 32/80 339s] clamp 1412 edits=2 fixed=True
+[rpos 33/80 341s] clamp 1414 edits=1 fixed=True
+[rpos 34/80 342s] sum_last_digits 1900 edits=1 fixed=True
+[rpos 35/80 346s] sum_last_digits 1901 edits=1 fixed=True
+[rpos 36/80 347s] sum_last_digits 1903 edits=1 fixed=True
+[rpos 37/80 357s] sum_last_digits 1904 edits=3 fixed=True
+[rpos 38/80 358s] sum_last_digits 1905 edits=1 fixed=True
+[rpos 39/80 402s] sum_last_digits 1906 edits=3 fixed=False
+[rpos 40/80 404s] sum_last_digits 1908 edits=1 fixed=True
+[rpos 41/80 406s] sum_last_digits 1910 edits=1 fixed=True
+[rpos 42/80 410s] sum_last_digits 1912 edits=2 fixed=True
+[rpos 43/80 435s] sum_last_digits 1914 edits=3 fixed=False
+[rpos 44/80 444s] keep_at_most 2202 edits=3 fixed=False
+[rpos 45/80 495s] keep_at_most 2205 edits=3 fixed=False
+[rpos 46/80 505s] keep_at_most 2209 edits=3 fixed=True
+[rpos 47/80 512s] keep_at_most 2214 edits=2 fixed=True
+[rpos 48/80 527s] round_to 2600 edits=3 fixed=False
+[rpos 49/80 580s] round_to 2610 edits=3 fixed=False
+[rpos 50/80 581s] round_to 2612 edits=1 fixed=True
+[rpos 51/80 583s] vowel_replace 2700 edits=1 fixed=True
+[rpos 52/80 586s] vowel_replace 2701 edits=1 fixed=True
+[rpos 53/80 587s] vowel_replace 2702 edits=1 fixed=True
+[rpos 54/80 592s] vowel_replace 2703 edits=3 fixed=False
+[rpos 55/80 594s] vowel_replace 2705 edits=1 fixed=True
+[rpos 56/80 598s] vowel_replace 2706 edits=3 fixed=True
+[rpos 57/80 602s] vowel_replace 2707 edits=2 fixed=True
+[rpos 58/80 607s] vowel_replace 2708 edits=3 fixed=True
+[rpos 59/80 610s] vowel_replace 2709 edits=1 fixed=True
+[rpos 60/80 613s] vowel_replace 2710 edits=1 fixed=True
+[rpos 61/80 630s] move_to_end 2901 edits=3 fixed=False
+[rpos 62/80 680s] move_to_end 2902 edits=3 fixed=False
+[rpos 63/80 698s] move_to_end 2903 edits=3 fixed=True
+[rpos 64/80 841s] move_to_end 2906 edits=3 fixed=False
+[rpos 65/80 857s] move_to_end 2907 edits=3 fixed=False
+[rpos 66/80 887s] move_to_end 2910 edits=3 fixed=False
+[rpos 67/80 920s] move_to_end 2912 edits=3 fixed=False
+[rpos 68/80 949s] move_to_end 2913 edits=2 fixed=True
+[rpos 69/80 1003s] move_to_end 2914 edits=3 fixed=False
+[rpos 70/80 1030s] coprime_k 3000 edits=2 fixed=True
+[rpos 71/80 1034s] coprime_k 3003 edits=2 fixed=True
+[rpos 72/80 1036s] coprime_k 3004 edits=2 fixed=False
+[rpos 73/80 1038s] coprime_k 3005 edits=1 fixed=True
+[rpos 74/80 1040s] coprime_k 3006 edits=1 fixed=True
+[rpos 75/80 1042s] coprime_k 3007 edits=2 fixed=False
+[rpos 76/80 1044s] coprime_k 3009 edits=1 fixed=True
+[rpos 77/80 1047s] coprime_k 3011 edits=2 fixed=True
+[rpos 78/80 1049s] coprime_k 3012 edits=1 fixed=True
+[rpos 79/80 1054s] coprime_k 3013 edits=2 fixed=True
+[rpos 80/80 1056s] coprime_k 3014 edits=1 fixed=True
+base eval done [395s]
+[416s] s0 bits_k           decisive x1.0 used=4 test greedy 0->7/7 rate 0.36->0.57 | edit greedy 1->5
+[436s] s0 bits_k           decisive x0.5 used=4 test greedy 0->7/7 rate 0.36->0.79 | edit greedy 1->5
+[496s] s0 bits_k           rpos     x1.0 used=4 test greedy 0->6/7 rate 0.36->0.50 | edit greedy 1->5
+[530s] s0 bits_k           rpos     x0.5 used=4 test greedy 0->7/7 rate 0.36->0.68 | edit greedy 1->5
+[562s] s0 bits_k           noise    x1.0 used=4 test greedy 0->0/7 rate 0.36->0.36 | edit greedy 1->0
+[578s] s0 bits_k           noise    x0.5 used=4 test greedy 0->0/7 rate 0.36->0.32 | edit greedy 1->0
+[632s] s0 bits_k           cross    x1.0 used=3 test greedy 0->0/7 rate 0.36->0.21 | edit greedy 1->1
+[677s] s0 bits_k           cross    x0.5 used=3 test greedy 0->0/7 rate 0.36->0.14 | edit greedy 1->0
+[698s] s0 caesar           decisive x1.0 used=3 test greedy 0->2/10 rate 0.20->0.25 | edit greedy 0->1
+[719s] s0 caesar           decisive x0.5 used=3 test greedy 0->0/10 rate 0.20->0.38 | edit greedy 0->0
+[758s] s0 caesar           rpos     x1.0 used=4 test greedy 0->0/10 rate 0.20->0.03 | edit greedy 0->0
+[778s] s0 caesar           rpos     x0.5 used=4 test greedy 0->10/10 rate 0.20->0.40 | edit greedy 0->5
+[798s] s0 caesar           noise    x1.0 used=3 test greedy 0->0/10 rate 0.20->0.10 | edit greedy 0->0
+[836s] s0 caesar           noise    x0.5 used=3 test greedy 0->0/10 rate 0.20->0.23 | edit greedy 0->0
+[853s] s0 caesar           cross    x1.0 used=4 test greedy 0->0/10 rate 0.20->0.00 | edit greedy 0->0
+[869s] s0 caesar           cross    x0.5 used=4 test greedy 0->0/10 rate 0.20->0.10 | edit greedy 0->0
+[886s] s0 chunk_sums       decisive x1.0 used=4 test greedy 1->8/8 rate 0.44->0.94 | edit greedy 1->5
+[912s] s0 chunk_sums       decisive x0.5 used=4 test greedy 1->8/8 rate 0.44->0.84 | edit greedy 1->5
+[937s] s0 chunk_sums       rpos     x1.0 used=4 test greedy 1->8/8 rate 0.44->0.84 | edit greedy 1->5
+[961s] s0 chunk_sums       rpos     x0.5 used=4 test greedy 1->8/8 rate 0.44->0.88 | edit greedy 1->5
+[989s] s0 chunk_sums       noise    x1.0 used=4 test greedy 1->1/8 rate 0.44->0.38 | edit greedy 1->1
+[1025s] s0 chunk_sums       noise    x0.5 used=4 test greedy 1->1/8 rate 0.44->0.50 | edit greedy 1->1
+[1064s] s0 chunk_sums       cross    x1.0 used=1 test greedy 1->8/8 rate 0.44->0.47 | edit greedy 1->5
+[1101s] s0 chunk_sums       cross    x0.5 used=1 test greedy 1->6/8 rate 0.44->0.38 | edit greedy 1->3
+[1135s] s0 clamp            decisive x1.0 used=1 test greedy 0->10/10 rate 0.23->0.68 | edit greedy 0->4
+[1169s] s0 clamp            decisive x0.5 used=1 test greedy 0->10/10 rate 0.23->0.50 | edit greedy 0->3
+[1194s] s0 clamp            rpos     x1.0 used=1 test greedy 0->10/10 rate 0.23->0.75 | edit greedy 0->4
+[1221s] s0 clamp            rpos     x0.5 used=1 test greedy 0->9/10 rate 0.23->0.47 | edit greedy 0->3
+[1245s] s0 clamp            noise    x1.0 used=1 test greedy 0->0/10 rate 0.23->0.23 | edit greedy 0->0
+[1270s] s0 clamp            noise    x0.5 used=1 test greedy 0->0/10 rate 0.23->0.15 | edit greedy 0->0
+[1289s] s0 clamp            cross    x1.0 used=4 test greedy 0->0/10 rate 0.23->0.03 | edit greedy 0->0
+[1311s] s0 clamp            cross    x0.5 used=4 test greedy 0->0/10 rate 0.23->0.00 | edit greedy 0->0
+[1334s] s0 coprime_k        decisive x1.0 used=4 test greedy 3->10/10 rate 0.38->0.72 | edit greedy 0->5
+[1358s] s0 coprime_k        decisive x0.5 used=4 test greedy 3->10/10 rate 0.38->0.82 | edit greedy 0->5
+[1378s] s0 coprime_k        rpos     x1.0 used=5 test greedy 3->10/10 rate 0.38->0.65 | edit greedy 0->5
+[1406s] s0 coprime_k        rpos     x0.5 used=5 test greedy 3->10/10 rate 0.38->0.80 | edit greedy 0->5
+[1439s] s0 coprime_k        noise    x1.0 used=4 test greedy 3->5/10 rate 0.38->0.42 | edit greedy 0->0
+[1466s] s0 coprime_k        noise    x0.5 used=4 test greedy 3->4/10 rate 0.38->0.47 | edit greedy 0->0
+[1612s] s0 coprime_k        cross    x1.0 used=4 test greedy 3->0/10 rate 0.38->0.00 | edit greedy 0->0
+[1678s] s0 coprime_k        cross    x0.5 used=4 test greedy 3->0/10 rate 0.38->0.00 | edit greedy 0->0
+[1754s] s0 digit_sum_base   decisive x1.0 used=4 test greedy 0->0/3 rate 0.25->0.00 | edit greedy 0->0
+[1785s] s0 digit_sum_base   decisive x0.5 used=4 test greedy 0->3/3 rate 0.25->0.42 | edit greedy 0->5
+[1867s] s0 digit_sum_base   rpos     x1.0 used=5 test greedy 0->0/3 rate 0.25->0.00 | edit greedy 0->0
+[1898s] s0 digit_sum_base   rpos     x0.5 used=5 test greedy 0->3/3 rate 0.25->0.42 | edit greedy 0->5
+[1907s] s0 digit_sum_base   noise    x1.0 used=4 test greedy 0->0/3 rate 0.25->0.42 | edit greedy 0->0
+[1915s] s0 digit_sum_base   noise    x0.5 used=4 test greedy 0->0/3 rate 0.25->0.33 | edit greedy 0->0
+[1924s] s0 digit_sum_base   cross    x1.0 used=1 test greedy 0->0/3 rate 0.25->0.25 | edit greedy 0->0
+[1934s] s0 digit_sum_base   cross    x0.5 used=1 test greedy 0->0/3 rate 0.25->0.25 | edit greedy 0->0
+[1964s] s0 every_kth        rpos     x1.0 used=1 test greedy 0->2/8 rate 0.06->0.31 | edit greedy 0->2
+[1985s] s0 every_kth        rpos     x0.5 used=1 test greedy 0->2/8 rate 0.06->0.09 | edit greedy 0->2
+[2036s] s0 kth_smallest     decisive x1.0 used=1 test greedy 2->3/10 rate 0.23->0.17 | edit greedy 2->3
+[2108s] s0 kth_smallest     decisive x0.5 used=1 test greedy 2->3/10 rate 0.23->0.20 | edit greedy 2->2
+[2155s] s0 kth_smallest     rpos     x1.0 used=1 test greedy 2->3/10 rate 0.23->0.17 | edit greedy 2->3
+[2218s] s0 kth_smallest     rpos     x0.5 used=1 test greedy 2->3/10 rate 0.23->0.20 | edit greedy 2->2
+[2263s] s0 kth_smallest     noise    x1.0 used=1 test greedy 2->3/10 rate 0.23->0.23 | edit greedy 2->1
+[2316s] s0 kth_smallest     noise    x0.5 used=1 test greedy 2->1/10 rate 0.23->0.25 | edit greedy 2->1
+[2351s] s0 kth_smallest     cross    x1.0 used=1 test greedy 2->1/10 rate 0.23->0.15 | edit greedy 2->1
+[2394s] s0 kth_smallest     cross    x0.5 used=1 test greedy 2->2/10 rate 0.23->0.17 | edit greedy 2->3
+[2417s] s0 move_to_end      rpos     x1.0 used=1 test greedy 0->0/10 rate 0.07->0.12 | edit greedy 0->1
+[2464s] s0 move_to_end      rpos     x0.5 used=1 test greedy 0->0/10 rate 0.07->0.07 | edit greedy 0->1
+[2488s] s0 replace_kth      decisive x1.0 used=1 test greedy 0->8/10 rate 0.05->0.53 | edit greedy 0->5
+[2502s] s0 replace_kth      decisive x0.5 used=1 test greedy 0->7/10 rate 0.05->0.17 | edit greedy 0->4
+[2547s] s0 replace_kth      rpos     x1.0 used=2 test greedy 0->10/10 rate 0.05->0.38 | edit greedy 0->5
+[2561s] s0 replace_kth      rpos     x0.5 used=2 test greedy 0->9/10 rate 0.05->0.47 | edit greedy 0->5
+[2583s] s0 replace_kth      noise    x1.0 used=1 test greedy 0->0/10 rate 0.05->0.03 | edit greedy 0->0
+[2636s] s0 replace_kth      noise    x0.5 used=1 test greedy 0->0/10 rate 0.05->0.03 | edit greedy 0->0
+[2670s] s0 replace_kth      cross    x1.0 used=1 test greedy 0->1/10 rate 0.05->0.07 | edit greedy 0->0
+[2683s] s0 replace_kth      cross    x0.5 used=1 test greedy 0->1/10 rate 0.05->0.12 | edit greedy 0->0
+[2724s] s0 rotate_left      decisive x1.0 used=1 test greedy 2->6/8 rate 0.03->0.22 | edit greedy 0->3
+[2761s] s0 rotate_left      decisive x0.5 used=1 test greedy 2->2/8 rate 0.03->0.22 | edit greedy 0->3
+[2795s] s0 rotate_left      rpos     x1.0 used=1 test greedy 2->6/8 rate 0.03->0.22 | edit greedy 0->3
+[2838s] s0 rotate_left      rpos     x0.5 used=1 test greedy 2->2/8 rate 0.03->0.22 | edit greedy 0->3
+[2899s] s0 rotate_left      noise    x1.0 used=1 test greedy 2->1/8 rate 0.03->0.00 | edit greedy 0->0
+[2957s] s0 rotate_left      noise    x0.5 used=1 test greedy 2->2/8 rate 0.03->0.06 | edit greedy 0->0
+[2975s] s0 rotate_left      cross    x1.0 used=1 test greedy 2->0/8 rate 0.03->0.03 | edit greedy 0->0
+[2999s] s0 rotate_left      cross    x0.5 used=1 test greedy 2->1/8 rate 0.03->0.09 | edit greedy 0->0
+[3019s] s0 round_to         decisive x1.0 used=1 test greedy 5->6/10 rate 0.15->0.40 | edit greedy 0->1
+[3040s] s0 round_to         decisive x0.5 used=1 test greedy 5->6/10 rate 0.15->0.38 | edit greedy 0->1
+[3059s] s0 round_to         rpos     x1.0 used=1 test greedy 5->6/10 rate 0.15->0.40 | edit greedy 0->1
+[3076s] s0 round_to         rpos     x0.5 used=1 test greedy 5->6/10 rate 0.15->0.38 | edit greedy 0->1
+[3094s] s0 round_to         noise    x1.0 used=1 test greedy 5->5/10 rate 0.15->0.30 | edit greedy 0->0
+[3111s] s0 round_to         noise    x0.5 used=1 test greedy 5->5/10 rate 0.15->0.28 | edit greedy 0->0
+[3123s] s0 round_to         cross    x1.0 used=3 test greedy 5->6/10 rate 0.15->0.35 | edit greedy 0->1
+[3136s] s0 round_to         cross    x0.5 used=3 test greedy 5->6/10 rate 0.15->0.30 | edit greedy 0->1
+[3148s] s0 sum_last_digits  decisive x1.0 used=3 test greedy 4->10/10 rate 0.23->0.62 | edit greedy 0->5
+[3161s] s0 sum_last_digits  decisive x0.5 used=3 test greedy 4->10/10 rate 0.23->0.53 | edit greedy 0->5
+[3203s] s0 sum_last_digits  rpos     x1.0 used=4 test greedy 4->10/10 rate 0.23->0.65 | edit greedy 0->5
+[3221s] s0 sum_last_digits  rpos     x0.5 used=4 test greedy 4->10/10 rate 0.23->0.65 | edit greedy 0->5
+[3244s] s0 sum_last_digits  noise    x1.0 used=3 test greedy 4->4/10 rate 0.23->0.25 | edit greedy 0->1
+[3285s] s0 sum_last_digits  noise    x0.5 used=3 test greedy 4->4/10 rate 0.23->0.40 | edit greedy 0->1
+[3311s] s0 sum_last_digits  cross    x1.0 used=5 test greedy 4->0/10 rate 0.23->0.10 | edit greedy 0->0
+[3338s] s0 sum_last_digits  cross    x0.5 used=5 test greedy 4->0/10 rate 0.23->0.03 | edit greedy 0->0
+[3387s] s0 to_base          rpos     x1.0 used=1 test greedy 2->1/3 rate 0.42->0.17 | edit greedy 2->1
+[3399s] s0 to_base          rpos     x0.5 used=1 test greedy 2->2/3 rate 0.42->0.42 | edit greedy 2->3
+[3424s] s0 vowel_replace    decisive x1.0 used=5 test greedy 1->6/6 rate 0.29->0.71 | edit greedy 0->5
+[3437s] s0 vowel_replace    decisive x0.5 used=5 test greedy 1->6/6 rate 0.29->0.67 | edit greedy 0->5
+[3483s] s0 vowel_replace    rpos     x1.0 used=5 test greedy 1->6/6 rate 0.29->0.25 | edit greedy 0->5
+[3495s] s0 vowel_replace    rpos     x0.5 used=5 test greedy 1->6/6 rate 0.29->0.67 | edit greedy 0->5
+[3575s] s0 vowel_replace    noise    x1.0 used=5 test greedy 1->1/6 rate 0.29->0.33 | edit greedy 0->0
+[3610s] s0 vowel_replace    noise    x0.5 used=5 test greedy 1->1/6 rate 0.29->0.42 | edit greedy 0->0
+[3712s] s0 vowel_replace    cross    x1.0 used=4 test greedy 1->2/6 rate 0.29->0.42 | edit greedy 0->4
+[3742s] s0 vowel_replace    cross    x0.5 used=4 test greedy 1->1/6 rate 0.29->0.38 | edit greedy 0->2
+[3786s] s1 bits_k           decisive x1.0 used=4 test greedy 0->7/7 rate 0.36->0.64 | edit greedy 1->5
+[3819s] s1 bits_k           decisive x0.5 used=4 test greedy 0->7/7 rate 0.36->0.54 | edit greedy 1->5
+[3878s] s1 bits_k           rpos     x1.0 used=4 test greedy 0->6/7 rate 0.36->0.50 | edit greedy 1->5
+[3922s] s1 bits_k           rpos     x0.5 used=4 test greedy 0->7/7 rate 0.36->0.71 | edit greedy 1->5
+[3995s] s1 bits_k           noise    x1.0 used=4 test greedy 0->0/7 rate 0.36->0.29 | edit greedy 1->0
+[4078s] s1 bits_k           noise    x0.5 used=4 test greedy 0->0/7 rate 0.36->0.21 | edit greedy 1->0
+[4156s] s1 bits_k           cross    x1.0 used=3 test greedy 0->0/7 rate 0.36->0.18 | edit greedy 1->0
+[4233s] s1 bits_k           cross    x0.5 used=3 test greedy 0->0/7 rate 0.36->0.29 | edit greedy 1->0
+[4271s] s1 caesar           decisive x1.0 used=3 test greedy 0->10/10 rate 0.23->0.28 | edit greedy 0->5
+[4311s] s1 caesar           decisive x0.5 used=3 test greedy 0->10/10 rate 0.23->0.35 | edit greedy 0->5
+[4353s] s1 caesar           rpos     x1.0 used=4 test greedy 0->4/10 rate 0.23->0.28 | edit greedy 0->4
+[4390s] s1 caesar           rpos     x0.5 used=4 test greedy 0->10/10 rate 0.23->0.55 | edit greedy 0->5
+[4428s] s1 caesar           noise    x1.0 used=3 test greedy 0->0/10 rate 0.23->0.25 | edit greedy 0->0
+[4464s] s1 caesar           noise    x0.5 used=3 test greedy 0->0/10 rate 0.23->0.23 | edit greedy 0->0
+[4495s] s1 caesar           cross    x1.0 used=3 test greedy 0->0/10 rate 0.23->0.00 | edit greedy 0->0
+[4537s] s1 caesar           cross    x0.5 used=3 test greedy 0->0/10 rate 0.23->0.07 | edit greedy 0->0
+[4585s] s1 chunk_sums       decisive x1.0 used=3 test greedy 0->8/8 rate 0.34->0.81 | edit greedy 2->5
+[4642s] s1 chunk_sums       decisive x0.5 used=3 test greedy 0->8/8 rate 0.34->0.72 | edit greedy 2->5
+[4690s] s1 chunk_sums       rpos     x1.0 used=3 test greedy 0->8/8 rate 0.34->0.78 | edit greedy 2->5
+[4746s] s1 chunk_sums       rpos     x0.5 used=3 test greedy 0->8/8 rate 0.34->0.69 | edit greedy 2->5
+[4839s] s1 chunk_sums       noise    x1.0 used=3 test greedy 0->0/8 rate 0.34->0.38 | edit greedy 2->1
+Fetching 10 files:   0%|          | 0/10 [00:00<?, ?it/s]Fetching 10 files: 100%|██████████| 10/10 [00:00<00:00, 2743.53it/s]
+base eval done [0s]
+[38s] s1 chunk_sums       noise    x0.5 used=3 test greedy 0->0/8 rate 0.34->0.44 | edit greedy 2->1
+[81s] s1 chunk_sums       cross    x1.0 used=3 test greedy 0->8/8 rate 0.34->0.56 | edit greedy 2->5
+[108s] s1 chunk_sums       cross    x0.5 used=3 test greedy 0->8/8 rate 0.34->0.47 | edit greedy 2->5
+[132s] s1 clamp            decisive x1.0 used=3 test greedy 0->9/10 rate 0.20->0.55 | edit greedy 0->4
+[143s] s1 clamp            decisive x0.5 used=3 test greedy 0->10/10 rate 0.20->0.65 | edit greedy 0->4
+[167s] s1 clamp            rpos     x1.0 used=3 test greedy 0->0/10 rate 0.20->0.12 | edit greedy 0->0
+[179s] s1 clamp            rpos     x0.5 used=3 test greedy 0->9/10 rate 0.20->0.50 | edit greedy 0->4
+[200s] s1 clamp            noise    x1.0 used=3 test greedy 0->0/10 rate 0.20->0.12 | edit greedy 0->0
+[214s] s1 clamp            noise    x0.5 used=3 test greedy 0->0/10 rate 0.20->0.17 | edit greedy 0->0
+[230s] s1 clamp            cross    x1.0 used=1 test greedy 0->0/10 rate 0.20->0.20 | edit greedy 0->0
+[247s] s1 clamp            cross    x0.5 used=1 test greedy 0->0/10 rate 0.20->0.20 | edit greedy 0->0
+[285s] s1 coprime_k        decisive x1.0 used=1 test greedy 1->10/10 rate 0.50->0.88 | edit greedy 2->5
+[305s] s1 coprime_k        decisive x0.5 used=1 test greedy 1->10/10 rate 0.50->0.55 | edit greedy 2->5
+[344s] s1 coprime_k        rpos     x1.0 used=1 test greedy 1->10/10 rate 0.50->0.88 | edit greedy 2->5
+[367s] s1 coprime_k        rpos     x0.5 used=1 test greedy 1->10/10 rate 0.50->0.55 | edit greedy 2->5
+[404s] s1 coprime_k        noise    x1.0 used=1 test greedy 1->2/10 rate 0.50->0.42 | edit greedy 2->2
+[437s] s1 coprime_k        noise    x0.5 used=1 test greedy 1->2/10 rate 0.50->0.53 | edit greedy 2->2
+[597s] s1 coprime_k        cross    x1.0 used=4 test greedy 1->0/10 rate 0.50->0.00 | edit greedy 2->0
+[626s] s1 coprime_k        cross    x0.5 used=4 test greedy 1->0/10 rate 0.50->0.23 | edit greedy 2->0
+[695s] s1 digit_sum_base   decisive x1.0 used=4 test greedy 0->0/3 rate 0.58->0.00 | edit greedy 0->0
+[704s] s1 digit_sum_base   decisive x0.5 used=4 test greedy 0->3/3 rate 0.58->0.67 | edit greedy 0->5
+[799s] s1 digit_sum_base   rpos     x1.0 used=5 test greedy 0->2/3 rate 0.58->0.00 | edit greedy 0->0
+[828s] s1 digit_sum_base   rpos     x0.5 used=5 test greedy 0->1/3 rate 0.58->0.58 | edit greedy 0->4
+[838s] s1 digit_sum_base   noise    x1.0 used=4 test greedy 0->0/3 rate 0.58->0.33 | edit greedy 0->0
+[849s] s1 digit_sum_base   noise    x0.5 used=4 test greedy 0->0/3 rate 0.58->0.58 | edit greedy 0->0
+[863s] s1 digit_sum_base   cross    x1.0 used=1 test greedy 0->1/3 rate 0.58->0.58 | edit greedy 0->2
+[877s] s1 digit_sum_base   cross    x0.5 used=1 test greedy 0->0/3 rate 0.58->0.67 | edit greedy 0->2
+[900s] s1 every_kth        rpos     x1.0 used=2 test greedy 0->3/8 rate 0.03->0.19 | edit greedy 0->1
+[933s] s1 every_kth        rpos     x0.5 used=2 test greedy 0->3/8 rate 0.03->0.09 | edit greedy 0->1
+[982s] s1 keep_at_most     decisive x1.0 used=1 test greedy 1->9/10 rate 0.20->0.20 | edit greedy 0->5
+[1032s] s1 keep_at_most     decisive x0.5 used=1 test greedy 1->3/10 rate 0.20->0.20 | edit greedy 0->0
+[1079s] s1 keep_at_most     rpos     x1.0 used=1 test greedy 1->9/10 rate 0.20->0.20 | edit greedy 0->5
+[1123s] s1 keep_at_most     rpos     x0.5 used=1 test greedy 1->3/10 rate 0.20->0.20 | edit greedy 0->0
+[1157s] s1 keep_at_most     noise    x1.0 used=1 test greedy 1->1/10 rate 0.20->0.15 | edit greedy 0->0
+[1195s] s1 keep_at_most     noise    x0.5 used=1 test greedy 1->1/10 rate 0.20->0.10 | edit greedy 0->0
+[1241s] s1 keep_at_most     cross    x1.0 used=1 test greedy 1->2/10 rate 0.20->0.10 | edit greedy 0->0
+[1301s] s1 keep_at_most     cross    x0.5 used=1 test greedy 1->1/10 rate 0.20->0.17 | edit greedy 0->0
+[1380s] s1 kth_smallest     rpos     x1.0 used=1 test greedy 3->0/10 rate 0.25->0.15 | edit greedy 1->2
+[1456s] s1 kth_smallest     rpos     x0.5 used=1 test greedy 3->3/10 rate 0.25->0.10 | edit greedy 1->1
+[1489s] s1 replace_kth      decisive x1.0 used=1 test greedy 0->3/10 rate 0.05->0.28 | edit greedy 0->3
+[1529s] s1 replace_kth      decisive x0.5 used=1 test greedy 0->2/10 rate 0.05->0.07 | edit greedy 0->0
+[1567s] s1 replace_kth      noise    x1.0 used=1 test greedy 0->0/10 rate 0.05->0.12 | edit greedy 0->0
+[1605s] s1 replace_kth      noise    x0.5 used=1 test greedy 0->0/10 rate 0.05->0.07 | edit greedy 0->0
+[1645s] s1 replace_kth      cross    x1.0 used=1 test greedy 0->0/10 rate 0.05->0.07 | edit greedy 0->0
+[1663s] s1 replace_kth      cross    x0.5 used=1 test greedy 0->0/10 rate 0.05->0.10 | edit greedy 0->0
+[1708s] s1 rotate_left      decisive x1.0 used=1 test greedy 2->3/8 rate 0.00->0.03 | edit greedy 0->1
+[1752s] s1 rotate_left      decisive x0.5 used=1 test greedy 2->1/8 rate 0.00->0.09 | edit greedy 0->1
+[1789s] s1 rotate_left      rpos     x1.0 used=1 test greedy 2->3/8 rate 0.00->0.03 | edit greedy 0->1
+[1830s] s1 rotate_left      rpos     x0.5 used=1 test greedy 2->1/8 rate 0.00->0.09 | edit greedy 0->1
+[1888s] s1 rotate_left      noise    x1.0 used=1 test greedy 2->2/8 rate 0.00->0.00 | edit greedy 0->0
+[1959s] s1 rotate_left      noise    x0.5 used=1 test greedy 2->2/8 rate 0.00->0.00 | edit greedy 0->0
+[1977s] s1 rotate_left      cross    x1.0 used=1 test greedy 2->0/8 rate 0.00->0.12 | edit greedy 0->0
+[2001s] s1 rotate_left      cross    x0.5 used=1 test greedy 2->1/8 rate 0.00->0.09 | edit greedy 0->0
+[2020s] s1 round_to         decisive x1.0 used=1 test greedy 4->4/10 rate 0.15->0.28 | edit greedy 1->3
+[2040s] s1 round_to         decisive x0.5 used=1 test greedy 4->4/10 rate 0.15->0.28 | edit greedy 1->3
+[2061s] s1 round_to         rpos     x1.0 used=1 test greedy 4->4/10 rate 0.15->0.28 | edit greedy 1->3
+[2086s] s1 round_to         rpos     x0.5 used=1 test greedy 4->4/10 rate 0.15->0.28 | edit greedy 1->3
+[2108s] s1 round_to         noise    x1.0 used=1 test greedy 4->4/10 rate 0.15->0.17 | edit greedy 1->1
+[2134s] s1 round_to         noise    x0.5 used=1 test greedy 4->3/10 rate 0.15->0.20 | edit greedy 1->1
+[2157s] s1 round_to         cross    x1.0 used=1 test greedy 4->4/10 rate 0.15->0.17 | edit greedy 1->3
+[2185s] s1 round_to         cross    x0.5 used=1 test greedy 4->4/10 rate 0.15->0.20 | edit greedy 1->2
+[2249s] s1 sum_last_digits  decisive x1.0 used=1 test greedy 4->9/10 rate 0.25->0.25 | edit greedy 0->4
+[2334s] s1 sum_last_digits  decisive x0.5 used=1 test greedy 4->2/10 rate 0.25->0.23 | edit greedy 0->1
+[2352s] s1 sum_last_digits  rpos     x1.0 used=3 test greedy 4->10/10 rate 0.25->0.55 | edit greedy 0->5
+[2383s] s1 sum_last_digits  rpos     x0.5 used=3 test greedy 4->10/10 rate 0.25->0.45 | edit greedy 0->5
+[2445s] s1 sum_last_digits  noise    x1.0 used=1 test greedy 4->3/10 rate 0.25->0.35 | edit greedy 0->2
+[2475s] s1 sum_last_digits  noise    x0.5 used=1 test greedy 4->4/10 rate 0.25->0.28 | edit greedy 0->1
+[2533s] s1 sum_last_digits  cross    x1.0 used=1 test greedy 4->0/10 rate 0.25->0.23 | edit greedy 0->1
+[2601s] s1 sum_last_digits  cross    x0.5 used=1 test greedy 4->0/10 rate 0.25->0.35 | edit greedy 0->1
+[2629s] s1 to_base          decisive x1.0 used=1 test greedy 1->3/3 rate 0.42->0.42 | edit greedy 3->5
+[2644s] s1 to_base          decisive x0.5 used=1 test greedy 1->1/3 rate 0.42->0.42 | edit greedy 3->4
+[2712s] s1 to_base          rpos     x1.0 used=1 test greedy 1->0/3 rate 0.42->0.08 | edit greedy 3->2
+[2728s] s1 to_base          rpos     x0.5 used=1 test greedy 1->2/3 rate 0.42->0.33 | edit greedy 3->3
+[2743s] s1 to_base          noise    x1.0 used=1 test greedy 1->1/3 rate 0.42->0.42 | edit greedy 3->3
+[2768s] s1 to_base          noise    x0.5 used=1 test greedy 1->1/3 rate 0.42->0.33 | edit greedy 3->3
+[2781s] s1 to_base          cross    x1.0 used=4 test greedy 1->3/3 rate 0.42->0.67 | edit greedy 3->5
+[2793s] s1 to_base          cross    x0.5 used=4 test greedy 1->3/3 rate 0.42->0.67 | edit greedy 3->5
+[2838s] s1 vowel_replace    decisive x1.0 used=4 test greedy 0->6/6 rate 0.38->0.54 | edit greedy 1->5
+[2855s] s1 vowel_replace    decisive x0.5 used=4 test greedy 0->6/6 rate 0.38->0.67 | edit greedy 1->5
+[2884s] s1 vowel_replace    rpos     x1.0 used=3 test greedy 0->6/6 rate 0.38->0.54 | edit greedy 1->5
+[2903s] s1 vowel_replace    rpos     x0.5 used=3 test greedy 0->6/6 rate 0.38->0.71 | edit greedy 1->5
+[2922s] s1 vowel_replace    noise    x1.0 used=4 test greedy 0->0/6 rate 0.38->0.50 | edit greedy 1->1
+[2941s] s1 vowel_replace    noise    x0.5 used=4 test greedy 0->0/6 rate 0.38->0.38 | edit greedy 1->1
+[2962s] s1 vowel_replace    cross    x1.0 used=4 test greedy 0->2/6 rate 0.38->0.46 | edit greedy 1->4
+[2983s] s1 vowel_replace    cross    x0.5 used=4 test greedy 0->2/6 rate 0.38->0.38 | edit greedy 1->2
+[3044s] s2 bits_k           decisive x1.0 used=5 test greedy 1->5/7 rate 0.39->0.71 | edit greedy 0->4
+[3066s] s2 bits_k           decisive x0.5 used=5 test greedy 1->7/7 rate 0.39->0.82 | edit greedy 0->5
+[3134s] s2 bits_k           rpos     x1.0 used=5 test greedy 1->6/7 rate 0.39->0.68 | edit greedy 0->4
+[3150s] s2 bits_k           rpos     x0.5 used=5 test greedy 1->7/7 rate 0.39->0.82 | edit greedy 0->5
+[3190s] s2 bits_k           noise    x1.0 used=5 test greedy 1->1/7 rate 0.39->0.46 | edit greedy 0->0
+[3216s] s2 bits_k           noise    x0.5 used=5 test greedy 1->0/7 rate 0.39->0.29 | edit greedy 0->0
+[3256s] s2 bits_k           cross    x1.0 used=5 test greedy 1->5/7 rate 0.39->0.43 | edit greedy 0->5
+[3316s] s2 bits_k           cross    x0.5 used=5 test greedy 1->1/7 rate 0.39->0.29 | edit greedy 0->0
+[3341s] s2 caesar           decisive x1.0 used=5 test greedy 0->0/10 rate 0.28->0.03 | edit greedy 0->0
+[3368s] s2 caesar           decisive x0.5 used=5 test greedy 0->10/10 rate 0.28->0.35 | edit greedy 0->5
+[3415s] s2 caesar           rpos     x1.0 used=4 test greedy 0->3/10 rate 0.28->0.25 | edit greedy 0->2
+[3444s] s2 caesar           rpos     x0.5 used=4 test greedy 0->10/10 rate 0.28->0.35 | edit greedy 0->5
+[3483s] s2 caesar           noise    x1.0 used=5 test greedy 0->0/10 rate 0.28->0.35 | edit greedy 0->0
+[3521s] s2 caesar           noise    x0.5 used=5 test greedy 0->0/10 rate 0.28->0.25 | edit greedy 0->0
+[3556s] s2 caesar           cross    x1.0 used=4 test greedy 0->0/10 rate 0.28->0.07 | edit greedy 0->0
+[3595s] s2 caesar           cross    x0.5 used=4 test greedy 0->0/10 rate 0.28->0.20 | edit greedy 0->0
+[3628s] s2 chunk_sums       decisive x1.0 used=4 test greedy 2->8/8 rate 0.44->0.84 | edit greedy 0->5
+[3653s] s2 chunk_sums       decisive x0.5 used=4 test greedy 2->8/8 rate 0.44->0.84 | edit greedy 0->5
+[3682s] s2 chunk_sums       rpos     x1.0 used=4 test greedy 2->8/8 rate 0.44->0.84 | edit greedy 0->5
+[3710s] s2 chunk_sums       rpos     x0.5 used=4 test greedy 2->8/8 rate 0.44->0.81 | edit greedy 0->5
+[3747s] s2 chunk_sums       noise    x1.0 used=4 test greedy 2->2/8 rate 0.44->0.44 | edit greedy 0->0
+[3797s] s2 chunk_sums       noise    x0.5 used=4 test greedy 2->2/8 rate 0.44->0.34 | edit greedy 0->0
+[3826s] s2 chunk_sums       cross    x1.0 used=4 test greedy 2->8/8 rate 0.44->0.72 | edit greedy 0->5
+[3870s] s2 chunk_sums       cross    x0.5 used=4 test greedy 2->8/8 rate 0.44->0.66 | edit greedy 0->5
+[3889s] s2 clamp            decisive x1.0 used=4 test greedy 0->8/10 rate 0.20->0.50 | edit greedy 0->5
+[3913s] s2 clamp            decisive x0.5 used=4 test greedy 0->9/10 rate 0.20->0.62 | edit greedy 0->5
+[3997s] s2 clamp            rpos     x1.0 used=4 test greedy 0->2/10 rate 0.20->0.20 | edit greedy 0->1
+[4017s] s2 clamp            rpos     x0.5 used=4 test greedy 0->8/10 rate 0.20->0.68 | edit greedy 0->5
+[4033s] s2 clamp            noise    x1.0 used=4 test greedy 0->0/10 rate 0.20->0.17 | edit greedy 0->0
+[4049s] s2 clamp            noise    x0.5 used=4 test greedy 0->0/10 rate 0.20->0.25 | edit greedy 0->0
+[4064s] s2 clamp            cross    x1.0 used=3 test greedy 0->0/10 rate 0.20->0.05 | edit greedy 0->0
+[4078s] s2 clamp            cross    x0.5 used=3 test greedy 0->0/10 rate 0.20->0.07 | edit greedy 0->0
+[4112s] s2 coprime_k        decisive x1.0 used=3 test greedy 2->10/10 rate 0.45->0.80 | edit greedy 1->5
+[4132s] s2 coprime_k        decisive x0.5 used=3 test greedy 2->10/10 rate 0.45->0.82 | edit greedy 1->5
+[4150s] s2 coprime_k        rpos     x1.0 used=3 test greedy 2->10/10 rate 0.45->0.82 | edit greedy 1->5
+[4179s] s2 coprime_k        rpos     x0.5 used=3 test greedy 2->10/10 rate 0.45->0.78 | edit greedy 1->5
+[4205s] s2 coprime_k        noise    x1.0 used=3 test greedy 2->3/10 rate 0.45->0.47 | edit greedy 1->2
+[4228s] s2 coprime_k        noise    x0.5 used=3 test greedy 2->3/10 rate 0.45->0.42 | edit greedy 1->2
+[4359s] s2 coprime_k        cross    x1.0 used=5 test greedy 2->0/10 rate 0.45->0.03 | edit greedy 1->0
+[4379s] s2 coprime_k        cross    x0.5 used=5 test greedy 2->0/10 rate 0.45->0.28 | edit greedy 1->0
+[4442s] s2 digit_sum_base   decisive x1.0 used=5 test greedy 0->1/3 rate 0.50->0.17 | edit greedy 0->0
+[4449s] s2 digit_sum_base   decisive x0.5 used=5 test greedy 0->3/3 rate 0.50->0.92 | edit greedy 0->5
+[4520s] s2 digit_sum_base   rpos     x1.0 used=5 test greedy 0->0/3 rate 0.50->0.08 | edit greedy 0->0
+[4538s] s2 digit_sum_base   rpos     x0.5 used=5 test greedy 0->3/3 rate 0.50->0.92 | edit greedy 0->5
+[4548s] s2 digit_sum_base   noise    x1.0 used=5 test greedy 0->0/3 rate 0.50->0.58 | edit greedy 0->1
+[4556s] s2 digit_sum_base   noise    x0.5 used=5 test greedy 0->0/3 rate 0.50->0.25 | edit greedy 0->0
+[4564s] s2 digit_sum_base   cross    x1.0 used=1 test greedy 0->0/3 rate 0.50->0.58 | edit greedy 0->0
+[4573s] s2 digit_sum_base   cross    x0.5 used=1 test greedy 0->0/3 rate 0.50->0.50 | edit greedy 0->0
+[4590s] s2 every_kth        rpos     x1.0 used=2 test greedy 0->3/8 rate 0.03->0.22 | edit greedy 0->1
+[4611s] s2 every_kth        rpos     x0.5 used=2 test greedy 0->3/8 rate 0.03->0.09 | edit greedy 0->1
+[4660s] s2 kth_smallest     decisive x1.0 used=1 test greedy 3->4/10 rate 0.25->0.20 | edit greedy 1->2
+[4727s] s2 kth_smallest     decisive x0.5 used=1 test greedy 3->4/10 rate 0.25->0.15 | edit greedy 1->1
+[4774s] s2 kth_smallest     rpos     x1.0 used=1 test greedy 3->4/10 rate 0.25->0.20 | edit greedy 1->2
+[4832s] s2 kth_smallest     rpos     x0.5 used=1 test greedy 3->4/10 rate 0.25->0.15 | edit greedy 1->1
+[4881s] s2 kth_smallest     noise    x1.0 used=1 test greedy 3->2/10 rate 0.25->0.15 | edit greedy 1->1
+[4942s] s2 kth_smallest     noise    x0.5 used=1 test greedy 3->4/10 rate 0.25->0.10 | edit greedy 1->2
+[4989s] s2 kth_smallest     cross    x1.0 used=1 test greedy 3->2/10 rate 0.25->0.07 | edit greedy 1->1
+[5039s] s2 kth_smallest     cross    x0.5 used=1 test greedy 3->4/10 rate 0.25->0.28 | edit greedy 1->2
+[5062s] s2 move_to_end      rpos     x1.0 used=1 test greedy 0->0/10 rate 0.05->0.12 | edit greedy 0->1
+[5109s] s2 move_to_end      rpos     x0.5 used=1 test greedy 0->0/10 rate 0.05->0.07 | edit greedy 0->1
+[5124s] s2 replace_kth      rpos     x1.0 used=1 test greedy 0->1/10 rate 0.05->0.12 | edit greedy 0->1
+[5137s] s2 replace_kth      rpos     x0.5 used=1 test greedy 0->1/10 rate 0.05->0.00 | edit greedy 0->1
+[5168s] s2 rotate_left      decisive x1.0 used=1 test greedy 1->5/8 rate 0.03->0.19 | edit greedy 1->4
+[5199s] s2 rotate_left      decisive x0.5 used=1 test greedy 1->2/8 rate 0.03->0.22 | edit greedy 1->3
+[5231s] s2 rotate_left      rpos     x1.0 used=1 test greedy 1->5/8 rate 0.03->0.19 | edit greedy 1->4
+[5262s] s2 rotate_left      rpos     x0.5 used=1 test greedy 1->2/8 rate 0.03->0.22 | edit greedy 1->3
+[5308s] s2 rotate_left      noise    x1.0 used=1 test greedy 1->1/8 rate 0.03->0.00 | edit greedy 1->1
+[5352s] s2 rotate_left      noise    x0.5 used=1 test greedy 1->1/8 rate 0.03->0.06 | edit greedy 1->1
+[5380s] s2 rotate_left      cross    x1.0 used=2 test greedy 1->0/8 rate 0.03->0.06 | edit greedy 1->0
+[5397s] s2 rotate_left      cross    x0.5 used=2 test greedy 1->0/8 rate 0.03->0.00 | edit greedy 1->0
+[5410s] s2 sum_last_digits  decisive x1.0 used=2 test greedy 2->10/10 rate 0.25->0.57 | edit greedy 2->5
+[5433s] s2 sum_last_digits  decisive x0.5 used=2 test greedy 2->10/10 rate 0.25->0.42 | edit greedy 2->5
+[5445s] s2 sum_last_digits  rpos     x1.0 used=2 test greedy 2->10/10 rate 0.25->0.57 | edit greedy 2->5
+[5469s] s2 sum_last_digits  rpos     x0.5 used=2 test greedy 2->10/10 rate 0.25->0.42 | edit greedy 2->5
+[5517s] s2 sum_last_digits  noise    x1.0 used=2 test greedy 2->3/10 rate 0.25->0.25 | edit greedy 2->2
+[5547s] s2 sum_last_digits  noise    x0.5 used=2 test greedy 2->2/10 rate 0.25->0.20 | edit greedy 2->1
+[5583s] s2 sum_last_digits  cross    x1.0 used=1 test greedy 2->1/10 rate 0.25->0.17 | edit greedy 2->0
+[5628s] s2 sum_last_digits  cross    x0.5 used=1 test greedy 2->1/10 rate 0.25->0.23 | edit greedy 2->0
+[5653s] s2 to_base          decisive x1.0 used=1 test greedy 2->3/3 rate 0.50->0.42 | edit greedy 2->5
+[5669s] s2 to_base          decisive x0.5 used=1 test greedy 2->3/3 rate 0.50->0.42 | edit greedy 2->2
+[5688s] s2 to_base          noise    x1.0 used=1 test greedy 2->2/3 rate 0.50->0.25 | edit greedy 2->2
+[5759s] s2 to_base          noise    x0.5 used=1 test greedy 2->2/3 rate 0.50->0.25 | edit greedy 2->3
+[5778s] s2 to_base          cross    x1.0 used=4 test greedy 2->3/3 rate 0.50->0.83 | edit greedy 2->5
+[5794s] s2 to_base          cross    x0.5 used=4 test greedy 2->3/3 rate 0.50->0.92 | edit greedy 2->5
+[5819s] s2 vowel_replace    decisive x1.0 used=4 test greedy 0->6/6 rate 0.46->0.67 | edit greedy 1->5
+[5843s] s2 vowel_replace    decisive x0.5 used=4 test greedy 0->6/6 rate 0.46->0.58 | edit greedy 1->5
+[5865s] s2 vowel_replace    rpos     x1.0 used=4 test greedy 0->6/6 rate 0.46->0.38 | edit greedy 1->5
+[5891s] s2 vowel_replace    rpos     x0.5 used=4 test greedy 0->6/6 rate 0.46->0.58 | edit greedy 1->5
+[5915s] s2 vowel_replace    noise    x1.0 used=4 test greedy 0->0/6 rate 0.46->0.33 | edit greedy 1->1
+[5934s] s2 vowel_replace    noise    x0.5 used=4 test greedy 0->0/6 rate 0.46->0.54 | edit greedy 1->1
+[5956s] s2 vowel_replace    cross    x1.0 used=5 test greedy 0->3/6 rate 0.46->0.33 | edit greedy 1->1
+[5984s] s2 vowel_replace    cross    x0.5 used=5 test greedy 0->2/6 rate 0.46->0.46 | edit greedy 1->2

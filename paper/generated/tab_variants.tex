@@ -1,0 +1,15 @@
+\begin{tabular}{llrrrr}
+\toprule
+Scale & Edits & Units & Greedy pass (before$\to$after) & Fixed / broke & $\Delta$ sample rate \\
+\midrule
+$\times$1 & Decisive token & 36 & 44/292 $\to$ 217/292 & 174 / 1 & +0.16 \\
+ & Random position & 42 & 47/346 $\to$ 201/346 & 159 / 5 & +0.10 \\
+ & Norm-matched noise & 36 & 44/292 $\to$ 47/292 & 11 / 8 & -0.01 \\
+ & Other template's edits & 36 & 44/292 $\to$ 60/292 & 40 / 24 & -0.04 \\
+\midrule
+$\times$0.5 & Decisive token & 36 & 44/292 $\to$ 211/292 & 173 / 6 & +0.20 \\
+ & Random position & 42 & 47/346 $\to$ 236/346 & 193 / 4 & +0.19 \\
+ & Norm-matched noise & 36 & 44/292 $\to$ 45/292 & 8 / 7 & -0.01 \\
+ & Other template's edits & 36 & 44/292 $\to$ 55/292 & 32 / 21 & -0.01 \\
+\bottomrule
+\end{tabular}
