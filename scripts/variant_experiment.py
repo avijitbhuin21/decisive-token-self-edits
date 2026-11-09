@@ -69,8 +69,8 @@ def main():
     ap.add_argument("--configs", nargs="+", default=["decisive", "rpos", "noise", "cross"])
     ap.add_argument("--n-samples", type=int, default=4)
     ap.add_argument("--logic", action="store_true")
+    ap.add_argument("--min-pairs", type=int, default=0)
     ap.add_argument("--model")
-    ap.add_argument("--out", default="runs/variants")
     args = ap.parse_args()
 
     tag = "_logic" if args.logic else ""
@@ -81,8 +81,13 @@ def main():
         args.layer = round(len(fe.layers) * 2 / 3)
     print(f"model {args.model} | {len(fe.layers)} layers | editing layer {args.layer}", flush=True)
     groups = load_variants(args.templates)
-    tasks = {t.task_id: t for ts in groups.values() for t in ts}
     rows = [r for r in map(json.loads, open(args.screen)) if r["template"] in groups]
+    npairs = {n: sum(not r["greedy"]["hidden"] and any(s["hidden"] for s in r["samples"])
+                     for r in rows if r["template"] == n) for n in groups}
+    groups = {n: ts for n, ts in groups.items() if npairs[n] >= args.min_pairs}
+    rows = [r for r in rows if r["template"] in groups]
+    print(f"{len(groups)} templates: {sorted(groups)}", flush=True)
+    tasks = {t.task_id: t for ts in groups.values() for t in ts}
     eps = {meth: run_episodes(m, fe, rows, tasks, meth, args, f"{args.out}/episodes_{meth}{tag}.jsonl", ddir)
            for meth in ("decisive", "rpos")}
 
