@@ -24,6 +24,7 @@ class TorchModel:
         except ValueError:
             self.model = AutoModelForImageTextToText.from_pretrained(model_id, dtype=dtype, device_map="cuda")
         self.model.eval()
+        self.model.requires_grad_(False)
         self.thinking = thinking
         self.layers, self.final_norm = _find(self.model)
         eos = self.model.generation_config.eos_token_id
