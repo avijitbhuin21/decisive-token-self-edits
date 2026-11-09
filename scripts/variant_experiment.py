@@ -71,6 +71,7 @@ def main():
     ap.add_argument("--logic", action="store_true")
     ap.add_argument("--min-pairs", type=int, default=0)
     ap.add_argument("--model")
+    ap.add_argument("--out", default="runs/variants")
     args = ap.parse_args()
 
     tag = "_logic" if args.logic else ""
