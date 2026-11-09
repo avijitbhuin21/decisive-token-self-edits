@@ -89,8 +89,9 @@ def main():
     rows = [r for r in rows if r["template"] in groups]
     print(f"{len(groups)} templates: {sorted(groups)}", flush=True)
     tasks = {t.task_id: t for ts in groups.values() for t in ts}
+    meths = ["decisive"] + (["rpos"] if "rpos" in args.configs else [])
     eps = {meth: run_episodes(m, fe, rows, tasks, meth, args, f"{args.out}/episodes_{meth}{tag}.jsonl", ddir)
-           for meth in ("decisive", "rpos")}
+           for meth in meths}
 
     t0 = time.time()
     names = sorted(groups)
