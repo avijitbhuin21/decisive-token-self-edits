@@ -2,9 +2,13 @@ import ast
 import io
 import tokenize
 
-import mlx.core as mx
+try:
+    import mlx.core as mx
 
-from selfedit.edits import _CaptureMLP
+    from selfedit.edits import _CaptureMLP
+except ImportError:
+    mx = None
+
 from selfedit.tasks import extract_code, run_hidden, run_visible
 
 
@@ -203,6 +207,8 @@ class ForkEditor:
 
     def apply_delta(self, layer: int, d: mx.array, commit: bool = True):
         """Add a float32 delta on top of the committed weight; optionally commit it."""
+        if not isinstance(d, mx.array):
+            d = mx.array(d)
         base = self._base(layer)
         W = (base.astype(mx.float32) + d).astype(base.dtype)
         self._set(layer, W)

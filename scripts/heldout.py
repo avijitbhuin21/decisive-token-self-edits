@@ -4,9 +4,13 @@ import os
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-import mlx.core as mx
 import numpy as np
-from mlx_lm import batch_generate
+
+try:
+    import mlx.core as mx
+    from mlx_lm import batch_generate
+except ImportError:
+    mx = batch_generate = None
 
 from selfedit.forks import ForkEditor, passes
 from selfedit.model import Model
@@ -31,7 +35,7 @@ def score(m: Model, tasks: list, answers: dict[int, list[int]]) -> dict[int, boo
     return {t.task_id: ok for t, ok in zip(tasks, res)}
 
 
-def load_delta(path: str, noise_rng=None) -> mx.array:
+def load_delta(path: str, noise_rng=None) -> np.ndarray:
     """Sum the rank-1 edits stored in an npz; with noise_rng, replace u/a by norm-matched random vectors."""
     z = np.load(path)
     d = 0
@@ -41,7 +45,7 @@ def load_delta(path: str, noise_rng=None) -> mx.array:
             u /= np.linalg.norm(u)
             a = noise_rng.standard_normal(a.shape).astype(np.float32) * np.linalg.norm(a) / np.sqrt(a.size)
         d = d + al * np.outer(u, a) / np.sum(a * a)
-    return mx.array(d.astype(np.float32))
+    return d.astype(np.float32)
 
 
 def main():
@@ -93,7 +97,7 @@ def main():
                 fe.rollback()
                 row = {"seed": seed, "cfg": cfg, "variant": args.variant, "scale": args.scale,
                        "n_edits_tasks": len(used),
-                       "dnorm": float(mx.linalg.norm(args.scale * d).item())}
+                       "dnorm": float(np.linalg.norm(args.scale * d))}
                 for name, part in [("train", train), ("test", set(ids) - train)]:
                     row[f"{name}_fixed"] = sum((not base[i]) and after[i] for i in part)
                     row[f"{name}_broke"] = sum(base[i] and not after[i] for i in part)

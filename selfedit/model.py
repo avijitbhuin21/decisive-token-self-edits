@@ -1,7 +1,14 @@
-from mlx_lm import batch_generate, generate, load
-from mlx_lm.sample_utils import make_sampler
+import os
+import sys
 
 MODEL_ID = "mlx-community/Qwen3.5-0.8B-bf16"
+
+try:
+    import mlx.core as mx
+    from mlx_lm import batch_generate, generate, load
+    from mlx_lm.sample_utils import make_sampler
+except ImportError:
+    mx = None
 
 
 class Model:
@@ -23,6 +30,20 @@ class Model:
                              return_token_ids=True, sampler=sampler)
         return res.token_ids
 
+    def generate(self, prompts: list[list[int]], temp: float, max_tokens: int = 1024) -> list[list[int]]:
+        """Batch-generate one continuation per prompt at the given temperature."""
+        sampler = make_sampler(temp=temp) if temp > 0 else None
+        return batch_generate(self.model, self.tok, prompts, max_tokens=max_tokens, return_token_ids=True,
+                              sampler=sampler).token_ids
+
+    def seed(self, s: int):
+        """Seed the sampler."""
+        mx.random.seed(s)
+
+    def argmax_next(self, ids: list[int]) -> list[int]:
+        """Greedy next-token prediction at every position of a sequence."""
+        return mx.argmax(self.model(mx.array([ids]))[0], axis=-1).tolist()
+
     def decode(self, ids: list[int]) -> str:
         """Decode generated token ids to text."""
         return self.tok.decode(ids)
@@ -35,3 +56,15 @@ class Model:
         return generate(
             self.model, self.tok, prompt, max_tokens=max_tokens, sampler=make_sampler(temp=temp)
         )
+
+
+def load_backend(model_id: str | None = None):
+    """Return (model, fork editor): MLX on Apple Silicon, torch/CUDA elsewhere (SELFEDIT_BACKEND overrides)."""
+    backend = os.environ.get("SELFEDIT_BACKEND") or ("mlx" if sys.platform == "darwin" and mx is not None else "torch")
+    if backend == "mlx":
+        from selfedit.forks import ForkEditor
+        m = Model(model_id or MODEL_ID)
+        return m, ForkEditor(m)
+    from selfedit.torch_backend import TorchForkEditor, TorchModel
+    m = TorchModel(model_id or "Qwen/Qwen3.5-0.8B")
+    return m, TorchForkEditor(m)

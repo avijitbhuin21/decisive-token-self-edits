@@ -5,7 +5,6 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-import mlx.core as mx
 import numpy as np
 
 sys.path.insert(0, os.path.dirname(__file__))
@@ -13,8 +12,8 @@ from fork_experiment import decisive_episode, pick_success  # noqa: E402
 from heldout import load_delta  # noqa: E402
 from screen_variants import generate  # noqa: E402
 
-from selfedit.forks import ForkEditor, passes  # noqa: E402
-from selfedit.model import Model  # noqa: E402
+from selfedit.forks import passes  # noqa: E402
+from selfedit.model import load_backend  # noqa: E402
 from selfedit.variants import load_variants  # noqa: E402
 
 
@@ -50,7 +49,7 @@ def evaluate(m, ex, tasks: list, n: int, seed: int) -> dict[int, dict]:
     """Greedy pass and sampled pass-rate for each task under the current weights."""
     prompts = [m.prompt_ids([{"role": "user", "content": t.user_message()}]) for t in tasks]
     greedy = generate(m, prompts, 0.0)
-    mx.random.seed(seed)
+    m.seed(seed)
     samples = generate(m, [p for p in prompts for _ in range(n)], 0.7)
     g = list(ex.map(lambda x: passes(m, *x), zip(tasks, greedy)))
     s = list(ex.map(lambda x: passes(m, *x), [(t, samples[i * n + j]) for i, t in enumerate(tasks) for j in range(n)]))
@@ -62,7 +61,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--screen", default="runs/variants/screen.jsonl")
     ap.add_argument("--templates", nargs="*")
-    ap.add_argument("--layer", type=int, default=16)
+    ap.add_argument("--layer", type=int, default=None)
     ap.add_argument("--max-edits", type=int, default=3)
     ap.add_argument("--n-edit", type=int, default=5)
     ap.add_argument("--seeds", type=int, nargs="+", default=[0, 1, 2])
@@ -70,14 +69,17 @@ def main():
     ap.add_argument("--configs", nargs="+", default=["decisive", "rpos", "noise", "cross"])
     ap.add_argument("--n-samples", type=int, default=4)
     ap.add_argument("--logic", action="store_true")
+    ap.add_argument("--model")
     ap.add_argument("--out", default="runs/variants")
     args = ap.parse_args()
 
     tag = "_logic" if args.logic else ""
     ddir = f"{args.out}/deltas{tag}"
     os.makedirs(ddir, exist_ok=True)
-    m = Model()
-    fe = ForkEditor(m)
+    m, fe = load_backend(args.model)
+    if args.layer is None:
+        args.layer = round(len(fe.layers) * 2 / 3)
+    print(f"model {args.model} | {len(fe.layers)} layers | editing layer {args.layer}", flush=True)
     groups = load_variants(args.templates)
     tasks = {t.task_id: t for ts in groups.values() for t in ts}
     rows = [r for r in map(json.loads, open(args.screen)) if r["template"] in groups]
@@ -135,7 +137,7 @@ def main():
                         fe.rollback()
                         res = {"seed": seed, "template": name, "cfg": cfg, "src": src, "scale": scale,
                                "logic": args.logic, "n_used": len(used),
-                               "dnorm": float(mx.linalg.norm(scale * d).item())}
+                               "dnorm": float(np.linalg.norm(scale * d))}
                         for part, ids in [("edit", split[name]), ("test", {t.task_id for t in groups[name]} - split[name])]:
                             res[f"{part}_n"] = len(ids)
                             res[f"{part}_greedy_base"] = sum(base[i]["greedy"] for i in ids)

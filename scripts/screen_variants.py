@@ -4,15 +4,12 @@ import os
 import time
 from concurrent.futures import ThreadPoolExecutor
 
-from mlx_lm import batch_generate
-from mlx_lm.sample_utils import make_sampler
-
-from selfedit.model import Model
+from selfedit.model import load_backend
 from selfedit.tasks import extract_code, run_hidden, run_visible
 from selfedit.variants import load_variants
 
 
-def score(m: Model, task, ids: list[int]) -> dict:
+def score(m, task, ids: list[int]) -> dict:
     """Decode a generation and score it on visible tests, and on hidden tests if visible pass."""
     code = extract_code(m.decode(ids))
     vis = run_visible(task, code).passed
@@ -20,11 +17,9 @@ def score(m: Model, task, ids: list[int]) -> dict:
     return {"ids": ids, "visible": vis, "hidden": hid}
 
 
-def generate(m: Model, prompts: list[list[int]], temp: float) -> list[list[int]]:
+def generate(m, prompts: list[list[int]], temp: float) -> list[list[int]]:
     """Batch-generate one continuation per prompt at the given temperature."""
-    sampler = make_sampler(temp=temp) if temp > 0 else None
-    return batch_generate(m.model, m.tok, prompts, max_tokens=1024, return_token_ids=True,
-                          sampler=sampler).token_ids
+    return m.generate(prompts, temp)
 
 
 def main():
@@ -33,12 +28,13 @@ def main():
     ap.add_argument("--n", type=int, default=10)
     ap.add_argument("--temp", type=float, default=0.7)
     ap.add_argument("--templates", nargs="*")
+    ap.add_argument("--model")
     ap.add_argument("--out", default="runs/variants/screen.jsonl")
     args = ap.parse_args()
 
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
     done = {json.loads(l)["template"] for l in open(args.out)} if os.path.exists(args.out) else set()
-    m = Model()
+    m, _ = load_backend(args.model)
     groups = {k: v for k, v in load_variants(args.templates).items() if k not in done}
     t0 = time.time()
     with open(args.out, "a") as f, ThreadPoolExecutor(8) as ex:

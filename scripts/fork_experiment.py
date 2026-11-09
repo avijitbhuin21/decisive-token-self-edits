@@ -3,8 +3,12 @@ import json
 import os
 import time
 
-import mlx.core as mx
 import numpy as np
+
+try:
+    import mlx.core as mx
+except ImportError:
+    mx = None
 
 from selfedit.forks import (ForkEditor, best_alternative, clean_success, decisive_token, first_divergence,
                             greedy_passes, is_logic, passes, pivotal_token)
@@ -23,8 +27,7 @@ def pick_success(row: dict, m: Model | None = None, task=None) -> list[int] | No
 
 def random_position(m: Model, prompt: list[int], success: list[int], rng, logic: bool = False):
     """Pick a random position on the passing answer where greedy's next token disagrees with it."""
-    logits = m.model(mx.array([prompt + success]))[0, len(prompt) - 1:-1]
-    pred = np.array(mx.argmax(logits, axis=-1)).tolist()
+    pred = m.argmax_next(prompt + success)[len(prompt) - 1:-1]
     bad = [j for j, (p, s) in enumerate(zip(pred, success)) if p != s]
     if logic:
         bad = [j for j in bad if is_logic(m.decode(success[:j]), m.decode([success[j]]), m.decode([pred[j]]))]
