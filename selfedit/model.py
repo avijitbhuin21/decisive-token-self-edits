@@ -14,6 +14,7 @@ except ImportError:
 class Model:
     def __init__(self, model_id: str = MODEL_ID, thinking: bool = False):
         self.model, self.tok = load(model_id)
+        self.eos = next(iter(self.tok.eos_token_ids))
         self.thinking = thinking
 
     def prompt_ids(self, messages: list[dict]) -> list[int]:

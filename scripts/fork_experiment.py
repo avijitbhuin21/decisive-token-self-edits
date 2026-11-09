@@ -77,7 +77,7 @@ def decisive_episode(m: Model, fe: ForkEditor, task, prompt: list[int], success:
 def diverge_episode(m: Model, fe: ForkEditor, task, prompt: list[int], success: list[int], layer: int,
                     max_edits: int, random_dir: bool, key) -> tuple[dict, list]:
     """Flip greedy's first divergence from a passing sample, re-generate, repeat until greedy passes."""
-    eos = next(iter(m.tok.eos_token_ids))
+    eos = m.eos
     log, deltas = [], []
     cur = m.sample_ids(prompt, 1, 0.0)[0]
     for _ in range(max_edits):

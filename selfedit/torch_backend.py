@@ -28,6 +28,7 @@ class TorchModel:
         self.layers, self.final_norm = _find(self.model)
         eos = self.model.generation_config.eos_token_id
         self.eos_ids = set(eos if isinstance(eos, list) else [eos]) | {self.tok.eos_token_id}
+        self.eos = self.tok.eos_token_id
         self.pad_id = self.tok.pad_token_id if self.tok.pad_token_id is not None else next(iter(self.eos_ids))
         self.batch = 64
 

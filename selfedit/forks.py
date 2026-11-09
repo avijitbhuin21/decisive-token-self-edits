@@ -51,7 +51,7 @@ def decisive_token(m, task, prompt: list[int], success: list[int]):
         else:
             lo = mid
     _, cont = greedy_passes(m, task, prompt, success[:lo])
-    eos = next(iter(m.tok.eos_token_ids))
+    eos = m.eos
     return {"pos": lo, "right": success[lo], "wrong": cont[0] if cont else eos}
 
 
@@ -139,7 +139,7 @@ def best_alternative(m, fe, task, prompt: list[int], path: list[int], k: int, la
 
 def find_forks(m, task, prompt: list[int], greedy: list[int], success: list[int], max_forks: int = 5):
     """Force the success path at each divergence from greedy until greedy continuation passes."""
-    eos = next(iter(m.tok.eos_token_ids))
+    eos = m.eos
     cur, forks = greedy, []
     for _ in range(max_forks):
         k = first_divergence(cur, success)
